@@ -5,3 +5,4 @@ def main():
 def hello():
     print("hello,", name)
 
+main()
