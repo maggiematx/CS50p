@@ -2,7 +2,7 @@ def main():
     name=input("waht's your name")
     hello(name)
 
-def hello():
+def hello(to=""):
     print("hello,", to)
 
 main()
