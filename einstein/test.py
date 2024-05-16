@@ -17,7 +17,8 @@ def text():
 
 def main():
     use_input=input("How are you?")
-    print("good", converted_text)
+    converted=convert_text(uer_input)
+    print("good", converted)
 
 if __name__ == "__main__":
     main()
