@@ -10,7 +10,7 @@ E=m*c**2
 print(E)
 
 
-def E_cal():
+def E_cal(m,c):
     E=m*c**2
 return E
 
