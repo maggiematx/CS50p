@@ -3,10 +3,10 @@ def main():
     user_input = input("Please enter a sentence: ")
 
     # Replacing each space with ...
-    slowdown_input = user_input.lower()
+    slow_input = user_input.replace(" ", "...")
 
     # Output the lowercase input
-    print(lowercase_input)
+    print(slow_input)
 
 if __name__ == "__main__":
     main()
