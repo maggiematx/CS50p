@@ -7,3 +7,4 @@ def main():
     m=int(input("what's m?"))
     Energy=E_cal(m,c)
     print("E is:" , Energy)
+
