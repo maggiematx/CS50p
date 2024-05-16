@@ -19,5 +19,5 @@ def main():
     use_input=input("How are you?")
     print("good", converted_text)
 
-if ___name___=="___main___":
+if __name__ == "__main__":
     main()
