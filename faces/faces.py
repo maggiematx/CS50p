@@ -1,4 +1,4 @@
-def convert(input_str)
+def convert(input_str):
     converted_input=input_str.replace(":)", "🙂").replace(":(", "🙁")
     return converted_input
 
