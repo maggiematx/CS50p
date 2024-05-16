@@ -1,6 +1,6 @@
 def convert(input_str)
-    input=input_str.replace(":)", "🙂").replace(":(", "🙁")
-    return input
+    converted_input=input_str.replace(":)", "🙂").replace(":(", "🙁")
+    return converted_input
 
 def main():
    user_input = str(input("How are you feeling now?"))
