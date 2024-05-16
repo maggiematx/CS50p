@@ -7,3 +7,6 @@ def main():
 
     # Output the lowercase input
     print(lowercase_input)
+    
+if __name__ == "__main__":
+    main()
