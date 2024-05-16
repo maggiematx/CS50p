@@ -17,8 +17,8 @@ return E
 def main():
     c = 3000000
     m = int(input("Enter the mass in kilograms: "))
-    energy = E_cal(m, c)
-    print("The equivalent energy in Joules is:", energy)
+    energy = E_cal(m,c)
+    print("E is:", energy)
 
     if __name__ == "__main__":
     main()
