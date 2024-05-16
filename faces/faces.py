@@ -4,7 +4,8 @@ def main():
     print(converted)
 
 def convert()
-    print(input_str.replace(":)", "🙂"))
+    input=input_str.replace(":)", "🙂")
+    return input
 
 
 if __name__ == "__main__":
