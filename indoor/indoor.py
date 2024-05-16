@@ -1,3 +1,4 @@
 def main():
-   x=('say something')
+   x=('say something').lower()
     print(x)
+   
