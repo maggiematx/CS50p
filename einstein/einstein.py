@@ -11,8 +11,8 @@ print(E)
 
 
 def E_cal():
-    E_cal=m*c**2
-return E_cal
+    E=m*c**2
+return E
 
 def main():
     c=3000000
