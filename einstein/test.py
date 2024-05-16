@@ -11,4 +11,13 @@ def main():
 if __name__ == "__main__":
     main()
 
-def 
+def text():
+    converted_text=text.str.replace(":)", "smile").replace(":(","cry")
+    return converted_text
+
+def main():
+    use_input=input("How are you?")
+    print("good", converted_text)
+
+if ___name___=="___main___":
+    main()
