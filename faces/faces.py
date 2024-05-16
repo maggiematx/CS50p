@@ -1,8 +1,8 @@
-def convert(user_input)
-    user_input = input_str.replace(":)", "🙂")
-
-
 def main():
+
+def convert()
+   user_input = str(input("How are you feeling now?")
+    print(input_str.replace(":)", "🙂"))
 
 
 if __name__ == "__main__":
