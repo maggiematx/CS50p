@@ -10,11 +10,11 @@ E=m*c**2
 print(E)
 
 
-def E():
+def E-cal():
     E=m*c**2
-return E
+return E-cal
 
 def main():
     c=3000000
     m=int(input("what's m?"))
-    print (E is: E)
+    print (E is: E-cal)
