@@ -2,8 +2,8 @@ def main():
     # Prompt the user for input
     user_input = input("Please enter a sentence: ")
 
-    # Convert the input to lowercase
-    lowercase_input = user_input.lower()
+    # Replacing each space with ...
+    slowdown_input = user_input.lower()
 
     # Output the lowercase input
     print(lowercase_input)
