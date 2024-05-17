@@ -6,7 +6,7 @@ def main():
 
 
 def dollars_to_float(d):
-    str(input())
+    str_dollar=str(input())
 
 
 
