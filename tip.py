@@ -12,7 +12,7 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    p=float(amount_str[1:2])
+    p=float(percent_str[:-1])/100
     return p
 
 
