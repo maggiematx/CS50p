@@ -6,14 +6,17 @@ def main():
 
 
 def dollars_to_float(d):
-    d=float(amount_str[1:])
-    return d
+    amount=float(d[1:])
+    return amount
 
 
 
 def percent_to_float(p):
-    p=float(percent_str[:-1])/100
-    return p
+    percent=float(p[:-1])/100
+    return percent
+
+if __name__ == "__main__":
+    main()
 
 
 main()
