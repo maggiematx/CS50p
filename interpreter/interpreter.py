@@ -2,5 +2,12 @@ expression=input("Expression: ")
 
 x,y,z=expression.split(" ")
 
-def main():
+x=int(x)
+z=int(z)
+
+if y=="+":
+    result=x+z
+elif y=="-":
+    result=x-z
+elif y==
 
