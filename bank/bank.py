@@ -1,4 +1,7 @@
 user_input=input("Greeting").strip().lower()
 if user_input=="hello
 print("$0")"
-if user_input="h" and !="hello":
+elif user_input="h" and !="hello":
+print("20")
+else:
+print("$100")
