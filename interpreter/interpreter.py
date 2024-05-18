@@ -1,6 +1,4 @@
-expression=input("Expression: ").strip()
-
-x, y, z=expression.split(" ")
+x,y,z=input("Expression: ").split()
 
 x=int(x)
 z=int(z)
