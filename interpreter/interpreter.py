@@ -1,6 +1,6 @@
-user_input=input("Expression: ")
-if 
+expression=input("Expression: ")
 
-x=int(input("What's x?"))
-y =
-z=int(input("What's z?"))
+x,y,z=expression.split(" ")
+
+def main():
+
