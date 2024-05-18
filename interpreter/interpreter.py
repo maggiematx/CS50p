@@ -1,16 +1,13 @@
-x,y,z=input("Expression: ").split()
+x, y, z = input("Expression: ").split()
+    x = float(x)
+    z = float(z)
+    if y == "+":
+        print(f"{x+z:.1f}")
+    elif y == "-":
+        print(f"{x-z:.1f}")
+    if y == "*":
+        print(f"{x*z:.1f}")
+    if y == "/":
+        print(f"{x/z:.1f}")
 
-x=int(x)
-z=int(z)
-
-if y=="+":
-    result=x+z
-elif y=="-":
-    result=x-z
-elif y=="*":
-    result=x*z
-elif y=="/":
-    result=x/z
-
-print(f"{result:.1f}")
 
