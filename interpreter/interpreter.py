@@ -16,4 +16,5 @@ elif y == '/':
         result = x / z
     else:
         print("Division by zero is not allowed.")
+        print(f"{result:.1f}")
 
