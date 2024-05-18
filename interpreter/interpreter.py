@@ -1,4 +1,4 @@
-expression=input("Expression: ")
+expression=input("Expression: ").strip()
 
 x, y, z=expression.split(" ")
 
