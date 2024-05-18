@@ -1,2 +1,6 @@
+user_input=input("Expression: ")
+if 
+
 x=int(input("What's x?"))
-y == "+" 'or 
+y =
+z=int(input("What's z?"))
