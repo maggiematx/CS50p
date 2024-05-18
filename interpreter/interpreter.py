@@ -1,4 +1,4 @@
-x, y, z = expression.split(" ")
+x, y, z = input("Expression: ").strip().split(" ")
 
         # Convert the operands to integers
 x = float(x)
