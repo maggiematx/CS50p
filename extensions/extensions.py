@@ -4,4 +4,5 @@ if user_input==".gif":
 elif user_input==".jpg" or user_input==".jpeg"
     print("image/jpeg")
 elif user_input==".png":
-    print()
+    print("image/png")
+elif user_input==".pdf":
