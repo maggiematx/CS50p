@@ -1,11 +1,4 @@
-expression = input("Expression: ").strip()
-expression_parts=expression.split(" ")
-
-if len(expression_parts) !=3:
-    print("invalid expression format.")
-else:
-    x,y,z=expression_parts
-    
+expression = input("Expression: ").strip().split(" ")
 x = float(x)
 z = float(z)
 
