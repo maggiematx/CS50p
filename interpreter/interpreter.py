@@ -1,6 +1,11 @@
-x, y, z = input("Expression: ").strip().split(" ")
+expression = input("Expression: ").strip()
+expression_parts=expression.split(" ")
 
-        # Convert the operands to integers
+if len(expression_parts) !=3:
+    print("invalid expression format.")
+else:
+    x,y,z=expression_parts
+    
 x = float(x)
 z = float(z)
 
