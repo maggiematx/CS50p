@@ -6,9 +6,12 @@ if y == "+":
     print(f"{x+z:.1f}")
 elif y == "-":
     print(f"{x-z:.1f}")
-if y == "*":
+elif y == "*":
     print(f"{x*z:.1f}")
-if y == "/":
-    print(f"{x/z:.1f}")
+elif y == "/":
+    if z != 0:
+        print(f"{x/z:.1f}")
+    else:
+        print("Invalid division.")
 
 
