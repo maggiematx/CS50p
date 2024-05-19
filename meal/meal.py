@@ -6,12 +6,12 @@ def convert(time):
 def main():
     time=input("what time is it now?").strip()
     time_hours=convert(time)
-    
-    if 7.0<=total_hours<=8.0:
+
+    if 7.0<=time_hours<=8.0:
         print("breakfast time")
-    elif 12.0<=total_hours <=13.0:
+    elif 12.0<=time_hours <=13.0:
         print("lunch time")
-    elif 18.0 <= total_hours <= 19.0:
+    elif 18.0 <= time_hours <= 19.0:
         print("dinner time")
 
 if __name__ == "__main__":
