@@ -5,6 +5,8 @@ def convert(time):
 
 def main():
     time=input("what time is it now?").strip()
+    time_hours=convert(time)
+    
     if 7.0<=total_hours<=8.0:
         print("breakfast time")
     elif 12.0<=total_hours <=13.0:
