@@ -3,6 +3,7 @@ def main():
 
 
 def convert(time):
+    hours, minutes = time.split(":")
     
 
 
