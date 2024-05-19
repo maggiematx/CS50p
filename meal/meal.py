@@ -11,8 +11,9 @@ def main():
 
 
 def convert(time):
-    converted=flot()
-    return converted
+    hours, minutes = time.split(":")
+    total_hours=hours+minutes/60.0
+    return total_hours
 
 if __name__ == "__main__":
     main()
