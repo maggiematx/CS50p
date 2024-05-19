@@ -1,5 +1,5 @@
 def main():
-    time=input("what time is it now?")
+    time=input("what time is it now?").split(":")
     if 7<=converted<=8:
         print("breakfast time")
     elif 12<=converted <=13:
@@ -11,7 +11,7 @@ def main():
 
 
 def convert(time):
-    hours, minutes = time.split(":")
+    converted=flot()
     return converted
 
 if __name__ == "__main__":
