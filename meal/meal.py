@@ -1,5 +1,10 @@
+def convert(time):
+    hours, minutes = map(int,time.split(":"))
+    total_hours=hours+minutes/60.0
+    return total_hours
+
 def main():
-    time=input("what time is it now?")
+    time=input("what time is it now?").strip()
     if 7.0<=total_hours<=8.0:
         print("breakfast time")
     elif 12.0<=total_hours <=13.0:
@@ -10,10 +15,6 @@ def main():
         print("")
 
 
-def convert(time):
-    hours, minutes = time.split(":")
-    total_hours=hours+minutes/60.0
-    return total_hours
 
 if __name__ == "__main__":
     main()
