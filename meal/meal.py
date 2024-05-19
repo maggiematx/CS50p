@@ -1,10 +1,10 @@
 def main():
-    time=input("what time is it now?").split(":")
-    if 7<=converted<=8:
+    time=input("what time is it now?")
+    if 7.0<=converted<=8.0:
         print("breakfast time")
-    elif 12<=converted <=13:
+    elif 12.0<=converted <=13.0:
         print("lunch time")
-    elif 18 <= converted <= 19:
+    elif 18.0 <= converted <= 19.0:
         print("dinner time")
     else:
         print("")
@@ -18,6 +18,3 @@ def convert(time):
 if __name__ == "__main__":
     main()
 
-
-if __name__ == "__main__":
-    main()
