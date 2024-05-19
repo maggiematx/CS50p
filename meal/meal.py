@@ -11,10 +11,6 @@ def main():
         print("lunch time")
     elif 18.0 <= total_hours <= 19.0:
         print("dinner time")
-    else:
-        print("")
-
-
 
 if __name__ == "__main__":
     main()
