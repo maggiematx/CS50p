@@ -19,5 +19,9 @@ def is_valid(s):
         return False
     return True
 
+def starts_with_two_letters(s):
+    return s[:2].isalpha()
+def 
+
 
 main()
