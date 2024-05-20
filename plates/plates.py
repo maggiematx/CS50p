@@ -12,7 +12,7 @@ def is_valid(s):
         start = s[0:2]
         if s.isalpha():
             valid = True
-            
+
         elif s.isalnum() and start.isalpha():
             if not s[-1].isalpha():
                 for character in s[2:]:
@@ -22,3 +22,6 @@ def is_valid(s):
                         valid = True
                     break
     return valid
+
+main()
+
