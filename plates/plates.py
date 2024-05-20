@@ -9,7 +9,9 @@ def main():
 def is_valid(s):
     if len(s) =>7:
         return False
-    if not 
+    if i = ["."," ", ","]
+        return False
+    if i
 
     for i in s:
         if
