@@ -7,6 +7,7 @@ fruits={"Apple":"130",
         "Honeydew":"50",
 
 
-
-
         }
+ueser_input=input("Item: ")
+for user_input in fruits:
+    print(user_input)
