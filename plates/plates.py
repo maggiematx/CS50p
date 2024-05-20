@@ -7,8 +7,8 @@ def main():
 
 def is_valid(s):
     # Check length of plate
-    if len(s) < 2 or len(s) > 6:
-        return False
+    if len(s) >1 and len(s) <7:
+        return True
 
     # Check if the first two characters are letters
     if not s[:2].isalpha():
