@@ -21,7 +21,8 @@ def is_valid(s):
 
 def starts_with_two_letters(s):
     return s[:2].isalpha()
-def 
+def contains_only_letters_and_numbers(s):
+    return s
 
 
 main()
