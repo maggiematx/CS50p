@@ -5,9 +5,9 @@ def main():
 def shortened(text):
     v=["a", "e","i","o","u"]
     nv=""
-    for char in text:
-        if char.lower() not in v:
-            nv += char
+    for i in text:
+        if i.lower() not in v:
+            nv += i
     return nv
 
 main()
