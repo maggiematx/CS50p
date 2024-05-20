@@ -9,11 +9,11 @@ def main():
 def is_valid(s):
     valid = False
     if len(s) > 1 and len(s) < 7:
-
         start = s[0:2]
+        
         if s.isalpha():
             valid = True
-            
+
         elif s.isalnum() and start.isalpha():
             if not s[-1].isalpha():
                 for character in s[2:]:
