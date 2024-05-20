@@ -7,17 +7,20 @@ def main():
 
 
 def is_valid(s):
-    if len(s) < 2 or len(s) > 6:
-        return False
-    if not starts_with_two_letters(s):
-        return False
-    if not contains_only_letters_and_numbers(s):
-        return False
-    if not numbers_at_end(s):
-        return False
-    if has_invalid_characters(s):
-        return False
-    return True
+    valid = False
+    if len(s) > 1 and len(s) < 7:
+        start = s[0:2]
+        if s.isalpha():
+            valid = True
+        elif s.isalnum() and start.isalpha():
+            if not s[-1].isalpha():
+                for character in s[2:]:
+                    if character.isalpha():
+                        continue
+                    elif character.isdigit() and character != "0":
+                        valid = True
+                    break
+    return valid
 
 def starts_with_two_letters(s):
     return s[:2].isalpha()
