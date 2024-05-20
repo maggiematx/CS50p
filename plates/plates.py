@@ -7,8 +7,10 @@ def main():
 
 
 def is_valid(s):
-    if len(s) !=7:
-        
+    if len(s) =>7:
+        return False
+    if not 
+
     for i in s:
         if
 
