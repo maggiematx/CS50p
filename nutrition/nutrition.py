@@ -20,7 +20,7 @@ fruits=[{"Item":"Apple","Calories":"130"},
         {"Item":"Watermelon","Calories":"80"},
 ]
 
-ueser_input=input("Item: ")
+ueser_input==input("Item: ")
 for fruit in fruits:
     if user_input=fruit["Item"]
     print(f"Calories: , {fruit["Calories"]}")
