@@ -1,5 +1,5 @@
 fruits=[{"Item":"Apple","Calories":"130"},
-        {"Item":Acocado":"50","Calories":"50"},
+        {"Item":"Acocado":"50","Calories":"50"},
         {"Item":"Banana":"110","Calories":"110"},
         {"Item":"Cantaloupe":"50","Calories":"50"},
         {"Item":"Grapefruit":"60","Calories":"60"},
