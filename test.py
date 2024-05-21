@@ -1,9 +1,10 @@
 def main():
-    print_column(4)
+    print_row(4)
 
 
-def print_column(depth):
-    print("?" * depth)
+def print_row(depth):
+    for i in range(depth):
+        print("?")
 
 
 main()
