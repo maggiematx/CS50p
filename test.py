@@ -1,10 +1,17 @@
 def main():
-    print_row(4)
+    print_square(3)
 
 
-def print_row(depth):
-    for i in range(depth):
-        print("?")
+def print_square(size):
+
+    # For each row in square
+    for i in range(size):
+
+
+            #  Print brick
+            print("#", end="")
+
+   
 
 
 main()
