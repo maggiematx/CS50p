@@ -1,13 +1,13 @@
-fruits={"Item":"Apple","Calories":"130"},
-        "Acocado":"50",
-        "Banana":"110",
-        "Cantaloupe":"50",
-        "Grapefruit":"60",
-        "Grapes":"90",
-        "Honeydew":"50",
+fruits=[{"Item":"Apple","Calories":"130"},
+        {"Item":Acocado":"50","Calories":"50"},
+        {"Item":"Banana":"110","Calories":"110"},
+        {"Item":"Cantaloupe":"50","Calories":"50"},
+        {"Item":"Grapefruit":"60","Calories":"60"},
+        {"Item":"Grapes":"90","Calories":"90"},
+        {"Item":"Honeydew":"50","Calories":"50"},
 
 
-        }
+]
 ueser_input=input("Item: ")
 for user_input in fruits:
-    print(user_input)
+    print(fruits["Calories"])
