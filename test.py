@@ -3,7 +3,8 @@ i=50
 while i>0:
     print(f"Amount Due: {amount_due}")
 
-    coin=input("Insert Coin: ")
+
+coin=input("Insert Coin: ")
 
     if coin in [25,10,5]:
         amount_due -= coin
