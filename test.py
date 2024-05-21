@@ -3,5 +3,5 @@ while True:
     if n>0:
         break
 
-for _in range(n):
+for _ in range(n):
     print("meow")
