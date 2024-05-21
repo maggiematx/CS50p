@@ -1,7 +1,7 @@
 
 i=50
 while i>0:
-    print(f"Amount Due: ,{amount_due}")
+    print(f"Amount Due: {amount_due}")
 
     coin=input("Insert Coin: ")
 
