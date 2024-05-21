@@ -23,5 +23,5 @@ fruits=[{"Item":"Apple","Calories":"130"},
 user_input=input("Item: ")
 for fruit in fruits:
     if user_input==fruit["Item"]:
-        print(f"Calories: {fruit["Calories"]}")
+        print("Calories:",fruit["Calories"])
         break
