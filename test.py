@@ -1,8 +1,10 @@
-students = {
-    "Hermoine": "Gryffindor",
-    "Harry": "Gryffindor",
-    "Ron": "Gryffindor",
-    "Draco": "Slytherin",
-}
-for student in students:
-    print(student, students[student])
+def main():
+    print_column(3)
+
+
+def print_column(height):
+    for _ in range(height):
+        print("#")
+
+
+main()
