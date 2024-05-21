@@ -20,8 +20,8 @@ fruits=[{"Item":"Apple","Calories":"130"},
         {"Item":"Watermelon","Calories":"80"},
 ]
 
-user_input=input("Item: ")
+user_input=input("Item: ").strip()
 for fruit in fruits:
-    if user_input==fruit["Item"]:
+    if user_input.lower()==fruit["Item"].lower():
         print("Calories:",fruit["Calories"])
         break
