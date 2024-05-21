@@ -1,10 +1,12 @@
 def main():
     user_input=input("camelCase: ").strip()
-    snakecase=covert()
-    print("snake_case: ", )
+    snakecase=covert(user_input)
+    print("snake_case: ", snakecase)
 
-def convert(test):
-    covert_str=user_input.lower()
+def convert(user_input):
+    covert_str=[]
+    for c in user_input:
+        
     final_str=convert_str
 
 
