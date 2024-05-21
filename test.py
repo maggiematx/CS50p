@@ -1,19 +1,14 @@
 def main():
-    user_input=input("camelCase: ").strip()
-    snakecase=covert(user_input)
-    print("snake_case: ", snakecase)
-
-def convert(user_input):
-    covert_str=[]
-    for c in user_input:
-        if c.isupper():
-            convert_str.append("_")
-            convert_str.appendlower()
-        elif c.islower():
+    amount_due()
 
 
-    final_str=convert_str
+def amount_due():
+    while amount_due>0:
+        print(f"Amount Due: ,{amount_due})
 
+        coin=input("Insert Coin: ")
 
-
-main()
+        if coin in [25,10,5]
+            amount_due -= coin
+        if amount_due <= 0:
+             print(f"Change Owed: {amount_due * -1}")
