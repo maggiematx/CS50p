@@ -7,11 +7,10 @@ def print_square(size):
         print_row(size)
 
 
+
 def print_row(width):
     print("#" * width)
 
-
-main()
 
 
 
