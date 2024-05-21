@@ -7,7 +7,10 @@ def convert(user_input):
     covert_str=[]
     for c in user_input:
         if c.isupper():
-            
+            convert_str.append("_")
+            convert_str.appendlower()
+        elif c.islower():
+
 
     final_str=convert_str
 
