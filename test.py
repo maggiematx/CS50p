@@ -1,16 +1,11 @@
 def main():
-    print_square(3)
+    user_input=input("camelCase: ").strip()
+    snakecase=covert()
+    print("snake_case: ", )
 
-
-def print_square(n):
-    for i in range(n):
-        print_row(n)
-
-
-
-def print_row(width):
-    print("#" * width)
-
+def convert(test):
+    covert_str=user_input.lower()
+    final_str=convert_str
 
 
 
