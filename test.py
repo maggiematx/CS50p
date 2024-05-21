@@ -6,7 +6,9 @@ def main():
 def convert(user_input):
     covert_str=[]
     for c in user_input:
-        
+        if c.isupper():
+            
+
     final_str=convert_str
 
 
