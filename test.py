@@ -1,10 +1,9 @@
 def main():
-    print_column(3)
+    print_column(4)
 
 
-def print_column(height):
-    for _ in range(height):
-        print("#")
+def print_column(depth):
+    print("?" * depth)
 
 
 main()
