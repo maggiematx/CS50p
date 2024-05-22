@@ -3,7 +3,7 @@ while True:
     try:
         fraction= int(input("Fraction: "))
         numerator, denominator = map(fraction.split('/'))
-        percentage = numerator / denominator
+        percentage = (numerator / denominator) * 100
     except (ValueError, ZeroDivisionError):
         pass
     else:
