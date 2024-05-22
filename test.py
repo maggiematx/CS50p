@@ -7,14 +7,15 @@ def get_int():
     while True:
         try:
             Fraction= int(input("Fraction: "))*100%
-        except ValueError:
+        except (ValueError, ZeroDivisionError):
             pass
         else:
-            if Fraction => .99:
+            if Fraction >1:
+                print("f {Fraction}")
+            elif Fraction => .99 and Fraction =<1
                 print('F')
-                      if Fraction =<0.01:
-                        print('E')
-    return x
+            elif Fraction =<0.01:
+                print('E')
 
 
 main()
