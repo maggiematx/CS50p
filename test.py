@@ -3,12 +3,10 @@ def main():
     print(f"x is {x}")
 
 
-
-
 def get_int():
     while True:
         try:
-            X = int(input("What's X?"))
+            Fraction= int(input("Fraction: "))
         except ValueError:
             print("x is not an integer")
         else:
