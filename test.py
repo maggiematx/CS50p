@@ -7,7 +7,7 @@ while True:
     except (ValueError, ZeroDivisionError):
         pass
     else:
-        if percentage >1:
+        if percentage >100:
             print("f {Fraction}")
         elif fraction => .99 and Fraction =<1
             print('F')
