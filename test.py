@@ -1,6 +1,8 @@
 
 
 
-User_inuput=str(input("Input: "))
+User_input=str(input("Input: ")).lower()
 
-if 
+if c in [a, e, i,o, u]:
+    print
+
