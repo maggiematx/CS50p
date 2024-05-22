@@ -3,14 +3,15 @@ while True:
     try:
         fraction= input("Fraction: ")
         numerator, denominator = map(int,fraction.split('/'))
-        percentage = (numerator / denominator) * 100
+
 
         if denominator == 0:
             raise ZeroDivisionError
 
         if numerator > denominator:
             raise ValueError
-
+        percentage = (numerator / denominator) * 100
+        
         if 99 <= percentage <= 100:
             print('F')
         elif percentage<=1:
