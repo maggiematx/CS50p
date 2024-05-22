@@ -11,13 +11,13 @@ while True:
         if numerator > denominator:
             raise ValueError
         percentage = (numerator / denominator) * 100
-        
+
         if 99 <= percentage <= 100:
             print('F')
         elif percentage<=1:
             print('E')
         else:
-            print(f"{percentage:}%")
+            print(f"{percentage:.0f}%")
         break
 
     except (ValueError, ZeroDivisionError):
