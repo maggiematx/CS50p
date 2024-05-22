@@ -1,11 +1,13 @@
 
 while True:
     try:
-        fraction= int(input("Fraction: "))*100%
+        fraction= int(input("Fraction: "))
+        numerator, denominator = map(fraction.split('/'))
+        percentage = numerator / denominator
     except (ValueError, ZeroDivisionError):
         pass
     else:
-        if Ffraction >1:
+        if percentage >1:
             print("f {Fraction}")
         elif fraction => .99 and Fraction =<1
             print('F')
