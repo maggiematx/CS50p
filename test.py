@@ -10,7 +10,7 @@ def get_int():
         except ValueError:
             pass
         else:
-            break
+            if Fraction 
     return x
 
 
