@@ -1,10 +1,7 @@
-while True:
-    try:
-        x=int(input("waht's x"))
-        break
-    except ValueError:
-        print('x is not an integer')
-    else:
+try:
+    x=int(input("waht's x"))
+except ValueError:
+    print('x is not an integer')
 print(f'x is {x}')
 
 
