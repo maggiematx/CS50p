@@ -8,9 +8,11 @@ while True:
         pass
     else:
         if 99 <= percentage <= 100:
-        elif fraction => .99 and Fraction =<1
             print('F')
-        elif fraction =<0.01:
+        elif percentage<=1:
             print('E')
+        else:
+            print(f"{percentage:}%")
+        break
 
 
