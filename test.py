@@ -8,7 +8,7 @@ def get_int():
         try:
             Fraction= int(input("Fraction: "))
         except ValueError:
-            print("x is not an integer")
+            pass
         else:
             break
     return x
