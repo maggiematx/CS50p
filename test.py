@@ -1,13 +1,14 @@
 
 def main():
-    User_input=str(input("Input: ")).lower()
-    final=shorted(user_input)
+    user_input=str(input("Input: ")).lower()
+    output=shorted(user_input)
 
 def shorted(user_input):
-    v=[a, e, i,o, u]
+    v=["a", "e", "i","o", "u"]
     nv=""
-    if c is not in v:
-        nv += c
-    elif c is in v:
-        print('nv')
+    for c in user_input:
+        if c not in v:
+            nv += c
+    return nv
+main()
 
