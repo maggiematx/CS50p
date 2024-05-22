@@ -1,8 +1,8 @@
 
 while True:
     try:
-        fraction= int(input("Fraction: "))
-        numerator, denominator = map(fraction.split('/'))
+        fraction= input("Fraction: ")
+        numerator, denominator = map(int,fraction.split('/'))
         percentage = (numerator / denominator) * 100
 
         if denominator == 0:
@@ -18,7 +18,8 @@ while True:
         else:
             print(f"{percentage:}%")
         break
-     except (ValueError, ZeroDivisionError):
+
+    except (ValueError, ZeroDivisionError):
         pass
 
 
