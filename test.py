@@ -1,5 +1,6 @@
 try:
-    x=int(input("what's x?"))
-    print(f"x is {x}")
+    x = int(input("What's x?"))
 except ValueError:
-    print('x is not an integer')
+    print("x is not an integer")
+
+print(f"x is {x}")
