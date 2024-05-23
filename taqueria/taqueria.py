@@ -16,7 +16,11 @@ menu={
 def
     try:
         item=input("Item: ")
-        for item in menu:
-            print(menu[item])
+        total=menu[item]
+        if item in menu:
+            total+=menu[item]
+                print(f"Total: {total}")
+        elif item is not in menu:
+            
 
 total_cost=
