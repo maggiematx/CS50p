@@ -8,5 +8,6 @@ while True:
         count[dic] += 1
         print(f")
     else:
-        
+        count[dict] =1 
+
 
