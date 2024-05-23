@@ -21,6 +21,7 @@ def
             total+=menu[item]
                 print(f"Total: {total}")
         elif item is not in menu:
-            
+            pass
+        
 
 total_cost=
