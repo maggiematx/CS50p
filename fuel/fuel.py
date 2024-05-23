@@ -4,10 +4,6 @@ while True:
         fraction= input("Fraction: ")
         numerator, denominator = map(int,fraction.split('/'))
 
-
-        if denominator == 0:
-            raise ZeroDivisionError
-
         if numerator > denominator:
             raise ValueError
         percentage = (numerator / denominator) * 100
