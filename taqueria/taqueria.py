@@ -1,4 +1,4 @@
-def main():
+
 
 menu={
     "Baja Taco": 4.25,
@@ -13,14 +13,14 @@ menu={
 }
 
 
-def total()
     try:
         item=input("Item: ")
         total=menu[item]
         if item in menu:
             total+=menu[item]
                 print(f"Total: ${total}")
-            
+        if item==control-d
+            break
 
         elif item is not in menu:
             pass
