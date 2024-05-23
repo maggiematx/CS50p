@@ -22,6 +22,6 @@ def
                 print(f"Total: {total}")
         elif item is not in menu:
             pass
-        
+except (ValueError, ZeroDivisionError):
 
 total_cost=
