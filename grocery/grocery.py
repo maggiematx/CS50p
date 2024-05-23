@@ -8,7 +8,7 @@ def grocery_list():
         try:
             user_input=input("").upper()
 
-            if user_input in grocery_list:
+            if user_input in item_counts:
                 item_counts[user_input] += 1
 
             else:
