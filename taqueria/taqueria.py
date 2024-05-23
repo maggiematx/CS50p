@@ -17,6 +17,6 @@ def
     try:
         item=input("Item: ")
         for item in menu:
-            return 
+            print(menu[item])
 
 total_cost=
