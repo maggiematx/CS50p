@@ -13,13 +13,14 @@ menu={
 }
 
 
-def
+def total()
     try:
         item=input("Item: ")
         total=menu[item]
         if item in menu:
             total+=menu[item]
-                print(f"Total: {total}")
+                print(f"Total: ${total}")
+
         elif item is not in menu:
             pass
 except (ValueError, ZeroDivisionError):
