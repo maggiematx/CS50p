@@ -22,6 +22,9 @@ while True:
             total+=menu[item]
             print(f"Total: ${total:.2f}")
 
+        elif item not in menu:
+            pass
+
     except EOFError:
         break
 
