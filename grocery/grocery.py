@@ -1,5 +1,5 @@
 def main():
-    dict():
+    list():
 
 def list():
     dict={}
