@@ -4,4 +4,4 @@ def main():
 
 def
     try:
-    it
+        item=input("Item: ")
