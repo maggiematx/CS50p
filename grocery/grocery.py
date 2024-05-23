@@ -16,5 +16,5 @@ def list():
 
         except EOFError:
             break
-    print(item["dict"],
+    print("item, count[dict],sep=", ")
 
