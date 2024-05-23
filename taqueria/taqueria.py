@@ -13,9 +13,10 @@ menu={
 }
 
 
+while True:
     try:
         item=input("Item: ")
-        total=menu[item]
+
         if item in menu:
             total+=menu[item]
                 print(f"Total: ${total}")
