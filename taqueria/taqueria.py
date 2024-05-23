@@ -22,8 +22,8 @@ menu={
         if item==control-d
             break
 
-        elif item is not in menu:
+        elif item not in menu:
             pass
 except EOFError:
 
-total_cost=
+
