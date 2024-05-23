@@ -20,9 +20,10 @@ def total()
         if item in menu:
             total+=menu[item]
                 print(f"Total: ${total}")
+            
 
         elif item is not in menu:
             pass
-except (ValueError, ZeroDivisionError):
+except EOFError:
 
 total_cost=
