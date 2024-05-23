@@ -1,5 +1,5 @@
 def main():
-    list():
+    list()
 
 def list():
     dict={}
@@ -12,9 +12,11 @@ def list():
                 dict[user_input] += 1
 
             else:
-                dict =1
+                dict[user_input] =1
 
         except EOFError:
             break
-    print("item, count[dict],sep=", ")
+    for item in sorted(dict):
+        print(f"{dict[item]} {item}")
 
+main()
