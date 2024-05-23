@@ -1,2 +1,2 @@
-user_input=input("")
-
+user_input=input("").upper()
+dict {}
