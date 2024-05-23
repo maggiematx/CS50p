@@ -1,22 +1,22 @@
 def main():
-    list()
+    grocery_list()
 
-def list():
-    dict={}
+def grocery_list():
+    item_counts={}
 
     while True:
         try:
             user_input=input("").upper()
 
-            if user_input in dict:
-                dict[user_input] += 1
+            if user_input in grocery_list:
+                item_counts[user_input] += 1
 
             else:
-                dict[user_input] =1
+                item_counts[user_input] =1
 
         except EOFError:
             break
-    for item in sorted(dict):
-        print(f"{dict[item]} {item}")
+    for item in sorted(item_counts):
+        print(f"{item_counts[item]} {item}")
 
 main()
