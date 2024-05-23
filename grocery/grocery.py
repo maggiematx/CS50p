@@ -9,10 +9,10 @@ def list():
             user_input=input("").upper()
 
             if user_input in dict:
-                count[dict] += 1
-                print(f")
+                dict[user_input] += 1
+
             else:
-                count[dict] =1
+                dict =1
 
         except EOFError:
             break
