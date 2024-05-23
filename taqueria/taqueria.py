@@ -19,13 +19,14 @@ while True:
 
         if item in menu:
             total+=menu[item]
-                print(f"Total: ${total}")
-
-        if itemcontrol-d
-            raise EOFError
+            print(f"Total: ${total}")
 
         elif item not in menu:
             pass
+
+        elif item==control-d:
+            break
+
 except EOFError:
     pass
 
