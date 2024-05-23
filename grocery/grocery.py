@@ -1,13 +1,21 @@
-dict {
+def main():
+    dict():
+
+def dict():
+    dict {
       }
 
-while True:
-    user_input=input("").upper()
+    while True:
+        try:
+            user_input=input("").upper()
 
-    if user_input in dict:
-        count[dic] += 1
-        print(f")
-    else:
-        count[dict] =1 
+            if user_input in dict:
+                count[dic] += 1
+                print(f")
+            else:
+                count[dict] =1
 
+        except EOFError:
+            break
+    print(()
 
