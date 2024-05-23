@@ -1,2 +1,3 @@
 user_input=input("").upper()
-dict {}
+dict {APPLE, BANANA, ICE CREAM
+      }
