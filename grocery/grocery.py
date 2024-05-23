@@ -9,5 +9,5 @@ while True:
 
     if user_input in dict:
         count[dic] += 1
-        
+        print(f")
 
