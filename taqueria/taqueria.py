@@ -12,22 +12,17 @@ menu={
     "Tortilla Salad": 8.00
 }
 
-total=0.0
+total=0.00
+
 while True:
     try:
-        item=input("Item: ")
+        item=input("Item: ").title()
 
         if item in menu:
             total+=menu[item]
-            print(f"Total: ${total}")
+            print(f"Total: ${total:.2f}")
 
-        elif item not in menu:
-            pass
-
-        elif item==control-d:
-            break
-
-except EOFError:
-    pass
+    except EOFError:
+        break
 
 
