@@ -37,11 +37,11 @@ def convert_text_format(date_str):
     try:
         parts=date_str.split()
         month_str=parts[0]
-        day=int(part[1].strip(","))
-        year=int(part[2])
+        day=int(parts[1].strip(","))
+        year=int(parts[2])
 
         if month_str in months and 1<=day <=31:
-            month=months.index(month_str)+1
+            input_month=months.index(month_str)+1
             return f"{year:04}-{month:02}-{date:02}"
         else:
             raise ValueError
