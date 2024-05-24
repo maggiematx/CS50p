@@ -1,11 +1,18 @@
 def main():
-    user_input=input("Date: ")
-    if "/" in user_input:
-        input_date=user_input.strtok("/")
-    else:
-        input_date=convert(user_input)
+    while True:
+        user_input=input("Date: ")
+        try:
+        if "/" in user_input:
+            input_date=convert_slash_format(user_input)
+        else:
+            input_date=convert_text_format(user_input)
+        if input_dateL
+            print(input_date)
+            break
+    except ErrorValue:
+        continue
 
-def convert():
+def convert_slash_format(date_str):
 user_month=[
     "January",
     "February",
@@ -28,8 +35,7 @@ user_month=[
                  return 1
                 elif "Feburary" in user_input:
                  return 2
-    except ErrorValue:
-        break
+
 main()
 
 
