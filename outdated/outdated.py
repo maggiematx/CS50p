@@ -6,8 +6,8 @@ def main():
                 input_date=convert_slash_format(user_input)
             else:
                 input_date=convert_text_format(user_input)
-        except ErrorValue:
-            break
+        except ValueError:
+            pass
 
 def convert_slash_format(date_str):
     try:
