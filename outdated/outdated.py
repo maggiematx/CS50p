@@ -45,6 +45,10 @@ def convert_text_format(date_str):
 
         if month_str in monnths and 1<=day <=31:
             month=months.index(month_str)+1
+            return f"{year:04}-{month:02}-{date:02}"
+        else:
+            raise ValueError
+    except (ValueError, IndexError):
 
 main()
 
