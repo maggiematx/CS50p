@@ -38,7 +38,7 @@ def convert_text_format(date_str):
     "December"
 ]
     try:
-            input_date=input.strtok(" ")
+        parts=input.strtok(" ")
 
             for usert_input in user_month:
             if "January" in user_input:
