@@ -6,7 +6,7 @@ def main():
             input_date=convert_slash_format(user_input)
         else:
             input_date=convert_text_format(user_input)
-        if input_dateL
+        if input_date:
             print(input_date)
             break
     except ErrorValue:
