@@ -7,10 +7,10 @@ def main():
             else:
                 input_date=convert_text_format(user_input)
 
-             if input_date:
+            if input_date:
                 print(input_date)
                 break
-            
+
         except ValueError:
             pass
 
