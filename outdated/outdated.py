@@ -2,6 +2,7 @@ def main():
 
 def ():
     user_input=input("Date: ")
-    if user_input 
+    if "/" in user_input:
+    
 
 
