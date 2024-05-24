@@ -20,8 +20,15 @@ user_month=[
     "November",
     "December"
 ]
-    if usert_input in user_month:
-        input_date=input.strtok(" ")
+    while True:
+            input_date=input.strtok(" ")
+
+            for usert_input in user_month:
+            if "January" in user_input:
+                 return 1
+                elif "Feburary" in user_input:
+                 return 2
+
 
 
 
