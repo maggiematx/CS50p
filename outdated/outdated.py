@@ -2,15 +2,12 @@ def main():
     while True:
         user_input=input("Date: ")
         try:
-        if "/" in user_input:
-            input_date=convert_slash_format(user_input)
-        else:
-            input_date=convert_text_format(user_input)
-        if input_date:
-            print(input_date)
+            if "/" in user_input:
+                input_date=convert_slash_format(user_input)
+            else:
+                input_date=convert_text_format(user_input)
+        except ErrorValue:
             break
-    except ErrorValue:
-        continue
 
 def convert_slash_format(date_str):
     try:
@@ -19,7 +16,7 @@ def convert_slash_format(date_str):
             return f"{year:04}-{month:02}-{day:02}"
         else:
             raise ValueError
-     except ValueError:
+    except ValueError:
         break
 
 def convert_text_format(date_str):
