@@ -20,7 +20,7 @@ def convert_slash_format(date_str):
         countinue
 
 def convert_text_format(date_str):
-    month=[
+    months=[
     "January",
     "February",
     "March",
@@ -46,7 +46,7 @@ def convert_text_format(date_str):
         else:
             raise ValueError
     except (ValueError, IndexError):
-        break
+        pass
 
 main()
 
