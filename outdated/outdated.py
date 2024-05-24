@@ -43,11 +43,8 @@ def convert_text_format(date_str):
         day=int(part[1].strip(","))
         year=int(part[2])
 
-            for usert_input in user_month:
-            if "January" in user_input:
-                 return 1
-                elif "Feburary" in user_input:
-                 return 2
+        if month_str in monnths and 1<=day <=31:
+            month=months.index(month_str)+1
 
 main()
 
