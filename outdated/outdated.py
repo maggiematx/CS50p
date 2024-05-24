@@ -1,4 +1,5 @@
 def main():
 
-def 
+def ():
+    user_input=input("Date: ")
 
