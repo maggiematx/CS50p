@@ -41,7 +41,7 @@ def convert_text_format(date_str):
         parts=date_str.split()
         month_str=parts[0]
         day=int(part[1].strip(","))
-        
+        year=int(part[2])
 
             for usert_input in user_month:
             if "January" in user_input:
