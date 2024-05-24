@@ -19,8 +19,7 @@ def convert_slash_format(date_str):
             return f"{year:04}-{month:02}-{day:02}"
         else:
             raise ValueError
-    except ValueError:
-        raise ValueError("Invalid date format")
+    
 
 user_month=[
     "January",
