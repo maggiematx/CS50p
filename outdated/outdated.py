@@ -22,7 +22,8 @@ def convert_slash_format(date_str):
      except ValueError:
         break
 
-user_month=[
+def convert_text_format(date_str):
+    month=[
     "January",
     "February",
     "March",
@@ -36,7 +37,7 @@ user_month=[
     "November",
     "December"
 ]
-    while True:
+    try:
             input_date=input.strtok(" ")
 
             for usert_input in user_month:
