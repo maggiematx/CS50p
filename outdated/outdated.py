@@ -17,7 +17,7 @@ def convert_slash_format(date_str):
         else:
             raise ValueError
     except ValueError:
-        continue
+        return None
 
 def convert_text_format(date_str):
     months=[
