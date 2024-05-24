@@ -13,6 +13,15 @@ def main():
         continue
 
 def convert_slash_format(date_str):
+    try:
+        month, day, year = map(int, date_str.split("/"))
+        if 1 <= month <= 12 and 1 <= day <= 31:
+            return f"{year:04}-{month:02}-{day:02}"
+        else:
+            raise ValueError
+    except ValueError:
+        raise ValueError("Invalid date format")
+
 user_month=[
     "January",
     "February",
