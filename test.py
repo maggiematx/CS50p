@@ -1,6 +1,6 @@
 
 # Create our own function
-def hello(to):
+def hello(u):
     print("hello,", to)
 
 
