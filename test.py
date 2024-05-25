@@ -28,15 +28,15 @@ def format_date():
             if month in months:
                 month = months.index(month) + 1
             else:
-                continue
+                pass
         try:
             day = int(day)
             year = int(year)
             month = int(month)
             if day > 31 or month > 12:
-                continue
+                pass
         except ValueError:
-            continue
+            pass
         break
 
     print(f"{year}-{month:02}-{day:02}")
