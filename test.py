@@ -5,8 +5,8 @@ def main():
     print(text)
 
 def convert(text):
-    return text.replace(":)", 😐)
-    return text.replace(":(", 🙁)
+    text=text.replace(":)", "😐")
+    text=return text.replace(":(", "🙁")
 
 
 main()
