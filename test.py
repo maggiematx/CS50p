@@ -28,7 +28,7 @@ def format_date():
             if month in months:
                 month = months.index(month) + 1
             else:
-                pass
+                continue
         try:
             day = int(day)
             year = int(year)
