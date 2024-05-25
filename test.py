@@ -6,4 +6,4 @@ y = float(input("What's y? "))
 z = round(x / y, 2)
 
 # Print the result
-print(z)
+print(f"{z:.2f}")
