@@ -4,7 +4,7 @@ def main():
 
     hello()
 
-def hello(to="world"):
-    print("hello,", to)
+def hello(world):
+    print("hello,", world)
 
 main()
