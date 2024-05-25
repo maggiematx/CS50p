@@ -1,7 +1,7 @@
 
 # Create our own function
 def hello(u):
-    print("hello,", to)
+    print("hello,", u)
 
 
 # Output using our own function
