@@ -41,12 +41,12 @@ def convert_text_format(date_str):
 ]
     try:
         parts=date_str.split()
-        month_str=parts[0]
-        day=int(parts[1])
-        year=int(parts[2])
-
-        if',' not in parts[1]:
+        if len(parts)!=3 or ',' not in parts[1]:
             raise ValueError
+        month_str=parts[0]
+        day_str=parts[1].strip(",")
+        day=int(day_str)
+        year=int(parts[2])
 
         if month_str in months and 1<=day <=31:
             month_index=months.index(month_str)+1
