@@ -1,10 +1,11 @@
 def main():
-    name=input("what's your name")
-    print(f"hello, {name}")
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
 
-    hello()
 
-def hello(c="world"):
-    print("hello,", c)
+def square(n):
+    print(n * n)
+
 
 main()
+
