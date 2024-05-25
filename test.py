@@ -34,7 +34,7 @@ def format_date():
             year = int(year)
             month = int(month)
             if day > 31 or month > 12:
-                pass
+                continue
         except ValueError:
             pass
         break
