@@ -1,11 +1,6 @@
-# Ask the user for their name
-name = input("What's your name? ")
+x = input("What's x? ")
+y = input("What's y? ")
 
-# Remove whitespace from the str
-name = name.strip()
+z = x + y
 
-# Capitalize the first letter of each word
-name = name.title()
-
-# Print the output
-print(f"hello, {name}")
+print(z)
