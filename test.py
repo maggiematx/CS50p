@@ -1,6 +1,3 @@
 
-# Create our own function
-def hello(to):
-    print("hello,", to)
-
-
+#prompt the user for input
+user_input=input(")
