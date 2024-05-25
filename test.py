@@ -1,11 +1,16 @@
 def main():
-    x = int(input("What's x? "))
-    print("x squared is", square(x))
+
+    # Output using our own function
+    name = input("What's your name? ")
+    hello(name)
+
+    # Output without passing the expected arguments
+    hello()
 
 
-def square(n):
-    print(n * n)
+# Create our own function
+def hello():
+    print("hello,", to)
 
 
 main()
-
