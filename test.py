@@ -9,7 +9,7 @@ def main():
 
 
 # Create our own function
-def hello():
+def hello(to):
     print("hello,", to)
 
 
