@@ -1,7 +1,7 @@
 
 # Create our own function
-def hello(u):
-    print("hello,", u)
+def hello(name):
+    print("hello,", name)
 
 
 # Output using our own function
