@@ -1,5 +1,8 @@
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+def main():
+    number=input("what's the number?")
 
-if x < y:
-    print("x is less than y")
+def conver():
+    if number%2==0:
+        print("even")
+    else:
+        print("odd")
