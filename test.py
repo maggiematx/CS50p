@@ -1,5 +1,5 @@
 def main():
-    number=input("what's the number?")
+    x=input("what's the number?")
     if is_even(x):
         print("even")
     else:
