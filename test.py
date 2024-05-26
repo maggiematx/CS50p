@@ -1,13 +1,8 @@
 
-def main():
-    user_input=input("m: ")
-    c=300000000
-    E=m*c*c
-    print(text)
 
-def convert(text):
-    text=text.replace(":)", "😐").replace(":(", "🙁")
-    return text
+m=input("m: ")
+c=300000000
+E=m*c*c
+print(f"E: {E}")
 
 
-main()
