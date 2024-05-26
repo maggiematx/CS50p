@@ -1,8 +1,15 @@
 def main():
     number=input("what's the number?")
-
-def conver():
-    if number%2==0:
+    if is_even(x):
         print("even")
     else:
         print("odd")
+
+def is_even(number):
+    if number%2==0:
+        return True
+    else:
+        return False
+
+main()
+
