@@ -4,8 +4,11 @@ def main():
 
 def calculation():
 
-    x, y= input("Expression: ").split(".")
+    x, y= input("Expression: ").split("")
     print(f"{z:.1f}")
+    if x and z are int, y is in ("=","-","*","/"):
+    if y=="/" and z!=0:
+      print
     else:
         print("application/octet-stream")
 
