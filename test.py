@@ -1,15 +1,20 @@
 def main():
       time=input("What tie is it?")
-
-def convert(time):
-      if 7<=time<=8:
+      if 7<=total_time<=8:
             print("breakfast time")
-      elif 12<=time<=13:
+      elif 12<=total_time<=13:
             print("lunch time")
-      elif 18<=time<=19:
+      elif 18<=total_time<=19:
             print("dinner time")
       else:
-time_str=float(time[0]
+
+
+def convert(time):
+      hours, minutes=time.split(":")
+      hours=int(hours)
+      minutes=int(minutes)
+      total_time=hours+minutes/60
+
 
 main()
 
