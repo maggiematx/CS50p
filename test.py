@@ -1,4 +1,4 @@
-from random import choice
+from random import randint
 
-coin = choice(["heads", "tails"])
+coin = randint(["heads", "tails"])
 print(coin)
