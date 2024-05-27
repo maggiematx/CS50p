@@ -3,18 +3,21 @@ def main():
 
 
 def calculation():
+      x, y,z= input("Expression: ").split(" ")
       x=int(x)
       z=int(z)
-      y is in ("=","-","*","/")
-      x, y,z= input("Expression: ").split(" ")
       if y=="+":
-           calculation=x+z
+            print(f"{x+z: .1f}")
       elif y=="-":
-            return x-z
+            print(f"{x-z: .1f}")
       elif y=="*":
-           return x*z
-      elif if y=="/" and z!=0:
-            return x/z
+            print(f"{x*z: .1f}")
+      elif y=="/" and z!=0:
+            print(f"{x/z:.1f}")
+      else:
+           pass
+
+
 
 if __name__ == "__main__":
     main()
