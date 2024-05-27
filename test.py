@@ -13,8 +13,8 @@ def extensions():
         "txt": "text/plain",
         "zip": "application/zip",
     }
-    if user_input[text]] in extension:
-        print(extension[user_input[text]])
+    if user_input[1] in extension:
+        print(extension[user_input[1]])
     else:
         print("application/octet-stream")
 
