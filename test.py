@@ -3,7 +3,7 @@ def main():
 
 
 def calculation():
-      x, y,z= input("Expression: ").split(" ")
+      x, y,z= input("Expression: ").split()
       x=int(x)
       z=int(z)
       if y=="+":
