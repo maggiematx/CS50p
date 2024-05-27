@@ -15,7 +15,7 @@ def calculation():
       elif y=="/" and z!=0:
             print(f"{x/z:.1f}")
       else:
-           continue
+           print("Invalid input.")
 
 
 
