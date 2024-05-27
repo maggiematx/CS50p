@@ -1,4 +1,5 @@
 user_input=input("What is the Answer to the Great Question of Life, the Universe, and Everything?").lower()
-if "42" in user_input or "forty-two" in user_input or "forty two"  in user_input:
-    print("Yes")
+match user_input:
+      case "42" | "forty-two" | "forty two" :
+            print("Yes")
 
