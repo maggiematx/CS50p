@@ -1,5 +1,5 @@
 def main():
-      time=input("What tie is it?")
+      time=input("What time is it?")
       total_time=convert(time)
       if 7<=total_time<=8:
             print("breakfast time")
