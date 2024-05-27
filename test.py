@@ -8,7 +8,7 @@ def calculation():
       y is in ("=","-","*","/")
       x, y,z= input("Expression: ").split(" ")
       if y=="+":
-           return x+z
+           calculation=x+z
       elif y=="-":
             return x-z
       elif y=="*":
