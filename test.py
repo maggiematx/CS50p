@@ -9,8 +9,6 @@ def calculation():
             calculation= x y z
       if y=="/" and z!=0:
             print
-      else:
-            print("application/octet-stream")
 
 if __name__ == "__main__":
     main()
