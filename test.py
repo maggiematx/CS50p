@@ -1,4 +1,6 @@
-from random import randint
+from random import shuffle
 
-number = randint(1, 10)
-print(number)
+cards = ["jack", "queen", "king"]
+shuffle(cards)
+for card in cards:
+    print(card)
