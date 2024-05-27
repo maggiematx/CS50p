@@ -1,4 +1,4 @@
 from random import randint
 
-coin = randint(["heads", "tails"])
-print(coin)
+number = randint(1, 10)
+print(number)
