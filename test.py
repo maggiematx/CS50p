@@ -9,7 +9,7 @@ def convert(time):
       elif 18<=time<=19:
             print("dinner time")
       else:
-time_str=c
+time_str=time[0]
 
 main()
 
