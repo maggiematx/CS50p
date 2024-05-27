@@ -3,10 +3,9 @@ def main():
 
 
 def calculation():
-    user_input = int(input("Expression: ")).split(".")
 
-    if user_input[1] in extension:
-        print(extension[user_input[1]])
+    x, y= input("Expression: ").split(".")
+    print(f"{z:.1f}")
     else:
         print("application/octet-stream")
 
