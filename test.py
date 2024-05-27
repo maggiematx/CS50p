@@ -1,6 +1,3 @@
-from random import shuffle
+import mean from statistics
 
-cards = ["jack", "queen", "king"]
-shuffle(cards)
-for card in cards:
-    print(card)
+print(mean([100, 90]))
