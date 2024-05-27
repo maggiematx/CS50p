@@ -5,9 +5,9 @@ def main():
 def calculation():
       x=int(x)
       z=int(z)
-      x, y,z= input("Expression: ").split(" "):
-
-      if x and z are int, y is in ("=","-","*","/"):
+      y is in ("=","-","*","/")
+      x, y,z= input("Expression: ").split(" ")
+:
             calculation= x y z
       if y=="/" and z!=0:
             print
