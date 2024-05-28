@@ -1,3 +1,7 @@
+def main():
+    print
+
+
 def hello(name):
     print(f"Hello, {name}")
 
