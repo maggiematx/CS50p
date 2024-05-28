@@ -1,8 +1,8 @@
-from sys import exit
+from sys import exit, argv
 
-if len(sys.argv) < 2:
+if len(argv) < 2:
     exit("Too few arguments")
-elif len(sys.argv) > 2:
+elif len(argv) > 2:
     exit("Too many arguments")
 
-print("hello, my name is", sys.argv[1])
+print("hello, my name is", argv[1])
