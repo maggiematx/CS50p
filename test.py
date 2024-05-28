@@ -1,3 +1,5 @@
-fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
+import cowsay
+import sys
+
+if len(sys.argv) == 2:
+    cowsay.trex("hello, " + sys.argv[1])
