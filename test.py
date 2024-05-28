@@ -2,8 +2,7 @@ import cowsay
 import sys
 
 if len(sys.argv) == 2:
-    cowsay.trex("hello, " + sys.argv[1])
+    cowsay.pig("hello, " + sys.argv[1])
 
-Further modify your code:
 
 
