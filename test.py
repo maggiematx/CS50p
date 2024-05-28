@@ -7,3 +7,5 @@ def hello(name):
 
 def goodbye(name):
     print(f"Goodbye, {name}")
+
+__name__=
