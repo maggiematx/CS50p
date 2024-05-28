@@ -1,3 +1,3 @@
 fruits = ["apple", "banana", "cherry"]
-fruitif fruit in fruits:
+for fruit in fruits:
     print(fruit)
