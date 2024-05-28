@@ -1,5 +1,6 @@
 def main():
-    print
+    hello("world")
+    goodbye ("world")
 
 
 def hello(name):
@@ -8,4 +9,4 @@ def hello(name):
 def goodbye(name):
     print(f"Goodbye, {name}")
 
-__name__=
+main()
