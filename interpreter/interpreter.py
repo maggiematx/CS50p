@@ -1,4 +1,3 @@
-
 x, y, z = input("Expression: ").split()
 x = float(x)
 z = float(z)
@@ -13,5 +12,3 @@ elif y == "/":
         print(f"{x/z:.1f}")
     else:
         print("Invalid division.")
-
-
