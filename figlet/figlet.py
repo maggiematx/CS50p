@@ -2,11 +2,12 @@ from pyfiglet import Figlet
 import random
 import sys
 
+figlet = Figlet()
+
 def main():
     figlet()
 
 def figlet():
-    figlet = Figlet()
 
     if len(sys.argv)==2 or len(sys.argv)>3:
         sys.exit("Invalid usage")
