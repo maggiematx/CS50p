@@ -27,7 +27,7 @@ def figlet():
         else:
             sys.exit("Invalid usage")
 
-    figlet.setFont(font=f)
+    figlet.setFont(font=font)
     user_input = input("Input: ")
 
     print("Output: ", figlet.renderText(user_input))
