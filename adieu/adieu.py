@@ -2,11 +2,13 @@ import inflect
 
 def main():
     name()
+names=[]
+user_input=input("Name: ")
 
 def name():
     while True:
         try:
-            user_input=input("Name: ")
+
 
             print("Adieu, adieu, to ", user_input)
         p=inflect.engine()
