@@ -9,7 +9,7 @@ def figlet():
     figlet = Figlet()
     user_input=input("Input: ")
 
-    if len(sys.argv)==2 or >3:
+    if len(sys.argv)==2 or len(sys.argv)>3:
         sys.exit("Invalid usage")
 
     elif len(sys.argv)==1:
