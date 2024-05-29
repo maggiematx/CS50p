@@ -3,13 +3,13 @@ import inflect
 def main():
 
 
-def
+def name():
+    while True:
+        try:
+            user_input=input("Name: ")
 
-while True:
-    try:
-        user_input=input("Name: ")
-        
-        print("Adieu, adieu, to ", user_input)
+            print("Adieu, adieu, to ", user_input)
 
-    except ValueError
-        pass
+        except ValueError
+            pass
+        print ("Adieu, adieu, to ",)
