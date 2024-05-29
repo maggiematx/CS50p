@@ -8,7 +8,7 @@ def main():
 
 def figlet():
     figlet = Figlet()
-    user_input = input("Input: ")
+
 
     if len(sys.argv) == 2 or len(sys.argv) > 3:
         sys.exit("Invalid usage")
@@ -28,7 +28,7 @@ def figlet():
             sys.exit("Invalid usage")
 
     figlet.setFont(font=font)
-
+    user_input = input("Input: ")
 
     print("Output: ", figlet.renderText(user_input))
 
