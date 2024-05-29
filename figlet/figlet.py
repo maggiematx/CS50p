@@ -1,5 +1,6 @@
 from pyfiglet import Figlet
 import random
+import sys
 
 def main():
     figlet()
