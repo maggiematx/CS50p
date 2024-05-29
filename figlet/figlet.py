@@ -6,6 +6,7 @@ import sys
 
 def main():
     figlet = Figlet()
+    figlet.setFont(font=font)
 
     if len(sys.argv)==2 or len(sys.argv)>3:
         sys.exit("Invalid usage")
@@ -20,4 +21,12 @@ def main():
                 sys.exit("Invalid usage")
         else:
             sys.exit("Invalid usage")
+
+
+
+    # Prompt the user for text
+    
+
+    # Output the text in the desired font
+    print(figlet.renderText(user_input)
 main()
