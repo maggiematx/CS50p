@@ -12,7 +12,7 @@ def main():
         sys.exit("Invalid usage")
 
     user_input = input("Input: ")
-    print("Output: ," figlet.renderText(user_input))
+    print("Output: ", figlet.renderText(user_input))
 
     if len(sys.argv)==1:
          font=random.choice(figlet.getFonts())
