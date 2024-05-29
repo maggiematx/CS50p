@@ -5,7 +5,7 @@ import sys
 
 def main():
     figlet = Figlet()
-    figlet.setFont(font=font)
+    figlet.setFont(font=f)
     user_input = input("Input: ")
 
     if len(sys.argv) == 2 or len(sys.argv) > 3:
