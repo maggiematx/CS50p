@@ -1,4 +1,4 @@
-import emoji
 
-output=emoji.emojize("input("Input: ")")
-print(f"Output: {output}")
+import emoji
+print(emoji.emojize('Output: :thumbs_up:'))
+
