@@ -11,6 +11,9 @@ def main():
     if len(sys.argv)==2 or len(sys.argv)>3:
         sys.exit("Invalid usage")
 
+    user_input = input("Input: ")
+    print("Output: ," figlet.renderText(user_input))
+
     if len(sys.argv)==1:
          font=random.choice(figlet.getFonts())
 
@@ -25,8 +28,8 @@ def main():
 
 
     # Prompt the user for text
-    
+
 
     # Output the text in the desired font
-    print(figlet.renderText(user_input)
+
 main()
