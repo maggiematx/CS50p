@@ -1,3 +1,2 @@
-import emojize
-user_input=input("Input: ")
+import emoji
 print(f" Output: , {user_input}")
