@@ -17,6 +17,6 @@ def figlet():
         print(f"Output: {output}")
 
     elif len(sys.argv)==3:
-        print(f"Output: {figlet.renderText(output)")
+        print(f"Output: {figlet.renderText(output)}")
 
 main()
