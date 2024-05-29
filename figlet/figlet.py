@@ -17,9 +17,10 @@ def figlet():
         output=random.choice(user_input)
         print(f"Output: {output}")
 
-    elif len(sys.argv)==3, sys.argv[1]== "-f" or sys.argv[1]=="--font":
-        user_input=input("Input: ")
-        print("Output: ", figlet.renderText(output))
+    elif len(sys.argv)==3:
+        if sys.argv[1]== "-f" or sys.argv[1]=="--font":
+            user_input=input("Input: ")
+            print("Output: ", figlet.renderText(output))
         else:
             sys.exit("Invalid usage")
 
