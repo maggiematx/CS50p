@@ -8,7 +8,9 @@ def main():
 def figlet():
     figlet = Figlet()
     user_input=input("Input: ")
+
     if len(sys.argv)==0:
-    figlet
+    output=random.(user_input)
+    print(Output: figlet
 
 figlet.getFonts()
