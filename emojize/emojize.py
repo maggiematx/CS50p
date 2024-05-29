@@ -1,4 +1,1 @@
-import emoji
-i,port sys
-if len(sys.argv)!=2
-    sys.exit()
+user_input=input("Input: ")
