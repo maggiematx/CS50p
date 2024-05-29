@@ -1,7 +1,7 @@
 import inflect
 
 def main():
-
+    name()
 
 def name():
     while True:
