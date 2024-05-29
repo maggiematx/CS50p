@@ -12,7 +12,7 @@ def figlet():
     if len(sys.argv)==2 or len(sys.argv)>3:
         sys.exit("Invalid usage")
 
-    user_input=input("Input: ")
+
     if len(sys.argv)==1:
         output=random.choice(user_input)
         print(f"Output: {output}")
