@@ -9,11 +9,11 @@ def main():
     if len(sys.argv) == 2 or len(sys.argv) > 3:
         sys.exit("Invalid usage")
 
-    figlet.setFont(font=font)
-    user_input = input("Input: ")
-    
+
+
     if len(sys.argv) == 1:
         font = random.choice(figlet.getFonts())
+
 
     elif len(sys.argv) == 3:
         if sys.argv[1] == "-f" or sys.argv[1] == "--font":
@@ -23,7 +23,8 @@ def main():
         else:
             sys.exit("Invalid usage")
 
-
+    figlet.setFont(font=font)
+    user_input = input("Input: ")
     print("Output: ", figlet.renderText(user_input))
 
 
