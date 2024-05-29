@@ -1,12 +1,12 @@
-def main():
-    hello("world")
-    goodbye ("world")
+import json
+import requests
+import sys
 
+if len(sys.argv) != 2:
+    sys.exit()
 
-def hello(name):
-    print(f"Hello, {name}")
+response = requests.get("https://itunes.apple.com/search?entity=song&limit=50&term=" + sys.argv[1])
 
-def goodbye(name):
-    print(f"Goodbye, {name}")
-
-main()
+o = response.json()
+for result in o["results"]:
+    print(result["trackName"])
