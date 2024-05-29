@@ -2,10 +2,10 @@ from pyfiglet import Figlet
 import random
 import sys
 
-figlet = Figlet()
+
 
 def main():
-    figlet()
+    figlet = Figlet()
 
 def figlet():
 
