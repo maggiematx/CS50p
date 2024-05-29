@@ -9,6 +9,7 @@ def name():
             user_input=input("Name: ")
 
             print("Adieu, adieu, to ", user_input)
-        name=inflect(user_input)
+        p=inflect.engine()
+
         except ValueError
-            print ("Adieu, adieu, to ", name)
+            print ("Adieu, adieu, to ", p.)
