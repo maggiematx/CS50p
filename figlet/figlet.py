@@ -17,8 +17,9 @@ def figlet():
         print(f"Output: {output}")
 
     elif len(sys.argv)==3, sys.argv[1]== "-f" or sys.argv[1]=="--font":
-            sys.exit("Invalid usage")
-        else:
+        sys.exit("Invalid usage")
+
+    else:
             print(f"Output: {figlet.renderText(output)}")
 
 main()
