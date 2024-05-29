@@ -4,9 +4,11 @@ def main():
 
 
 def
-    user_input=input("Name: ")
+
 while True:
     try:
+        user_input=input("Name: ")
+        
         print("Adieu, adieu, to ", user_input)
 
     except ValueError
