@@ -11,6 +11,6 @@ def figlet():
 
     if len(sys.argv)==0:
     output=random.(user_input)
-    print(Output: figlet
+    print(f"Output: {figlet.renderText(output)}")
 
-figlet.getFonts()
+main()
