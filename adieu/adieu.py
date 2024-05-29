@@ -15,4 +15,4 @@ def name():
         p=inflect.engine()
 
         except ValueError
-            print ("Adieu, adieu, to ", p.)
+            print ("Adieu, adieu, to ", names)
