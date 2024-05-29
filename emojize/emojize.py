@@ -1,2 +1,2 @@
 import emoji
-print(f" Output: , {user_input}")
+print(emoji.emojize('Input: ))
