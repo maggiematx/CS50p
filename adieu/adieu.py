@@ -9,5 +9,5 @@ while True:
     try:
         print("Adieu, adieu, to ", user_input)
 
-    except:
-        
+    except ValueError
+        pass
