@@ -21,8 +21,8 @@ def figlet():
 
     elif len(sys.argv) == 3:
         if sys.argv[1] == "-f" or sys.argv[1] == "--font":
-            f = sys.argv[2]
-            if f not in figlet.getFonts():
+            font = sys.argv[2]
+            if font not in figlet.getFonts():
                 sys.exit("Invalid usage")
         else:
             sys.exit("Invalid usage")
