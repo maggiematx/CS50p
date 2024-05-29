@@ -11,5 +11,4 @@ def name():
             print("Adieu, adieu, to ", user_input)
 
         except ValueError
-            pass
-        print ("Adieu, adieu, to ",)
+            print ("Adieu, adieu, to ",)
