@@ -2,8 +2,9 @@ import inflect
 
 def main():
     name()
-names=[]
+
 user_input=input("Name: ")
+names=[p.join(names)]
 
 def name():
     while True:
