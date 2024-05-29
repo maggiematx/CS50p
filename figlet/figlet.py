@@ -16,18 +16,18 @@ def figlet():
 
 
     if len(sys.argv) == 1:
-        font = random.choice(figlet.getFonts())
+        f = random.choice(figlet.getFonts())
 
 
     elif len(sys.argv) == 3:
         if sys.argv[1] == "-f" or sys.argv[1] == "--font":
-            font = sys.argv[2]
-            if font not in figlet.getFonts():
+            f = sys.argv[2]
+            if f not in figlet.getFonts():
                 sys.exit("Invalid usage")
         else:
             sys.exit("Invalid usage")
 
-    figlet.setFont(font=font)
+    figlet.setFont(font=f)
     user_input = input("Input: ")
 
     print("Output: ", figlet.renderText(user_input))
