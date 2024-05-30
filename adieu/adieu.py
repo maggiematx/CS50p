@@ -8,15 +8,15 @@ def main():
 def get_names():
     p = inflect.engine()
     names = []
-
-    while True:
-        name = input("Name: ")
-
-        if name:
-            names.append(name)
+    try:
+        while True:
+            name = input("Name: ")
+            if name:
+                names.append(name)
 
         return names
     except EOFError:
+        pass
 
 def farewell(names):
     p=inflect.engine()
