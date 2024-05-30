@@ -1,9 +1,11 @@
 import inflect
 import sys
 
+
 def main():
     names = get_names()
     farewell(names)
+
 
 def get_names():
     p = inflect.engine()
@@ -14,14 +16,14 @@ def get_names():
             if name:
                 names.append(name)
 
-
     except EOFError:
         pass
     return names
 
+
 def farewell(names):
-    p=inflect.engine()
-    names_str=p.join(names)
+    p = inflect.engine()
+    names_str = p.join(names)
     print(f"Adieu, adieu, to {names_str}")
 
 
