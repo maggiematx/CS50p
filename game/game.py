@@ -1,19 +1,16 @@
-from random import randint
-
-#pick a random number
-
-number=random.randint(1,n)
-
+import random
 
 while True:
     try:
         n=int(input("Level: "))
-    if n>0:
-        break
+        if n>0:
+            break
     except ValueError:
         pass
 
+number=random.randint(1,n)
 0<number<n
+
 while True:
     try:
         user_input=int(input("Guess: "))
