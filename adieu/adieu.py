@@ -14,9 +14,10 @@ def get_names():
             if name:
                 names.append(name)
 
-        return names
+
     except EOFError:
         pass
+    return names
 
 def farewell(names):
     p=inflect.engine()
