@@ -4,7 +4,6 @@ import inflect
 
 def main():
     names = get_names()
-    farewell(names)
 
 
 def get_names():
