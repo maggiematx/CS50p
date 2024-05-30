@@ -12,7 +12,7 @@ def get_level():
             break
         else:
             raise ValueError
-
+    return n
 
 
 
