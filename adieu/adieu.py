@@ -16,7 +16,7 @@ def get_names():
                 names.append(name)
 
     except EOFError:
-        print(f"Adieu, adieu, to {p.join(names)}")
+        print(f"\nAdieu, adieu, to {p.join(names)}")
 
 
 if __name__ == "__main__":
