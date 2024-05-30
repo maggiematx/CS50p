@@ -4,6 +4,8 @@ from random import randint
 number=random.randint(1,n)
 
 user_input=input("Level: ")
+if user_input != int
+    pass
 if user_input>number:
     print("Too large!")
 elif user_input<number:
