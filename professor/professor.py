@@ -10,9 +10,9 @@ def get_level():
     while True:
         for n in range [1:3]:
             break
+        else:
+            raise ValueError
 
-    except ValueError
-        pass
 
 
 
