@@ -9,11 +9,9 @@ def get_names():
     p = inflect.engine()
     names = []
 
-    print("Enter names (press Ctrl-D to finish):")
-    try:
-        while True:
-            name = input()
-            if name:
+    while True:
+        name = input("Name: ")
+        if name.lower()==
                 names.append(name)
     except EOFError:
         pass
