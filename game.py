@@ -14,7 +14,7 @@ while True:
         break
 
     except ValueError:
-    pass
+        pass
 
 
     if user_input>number:
