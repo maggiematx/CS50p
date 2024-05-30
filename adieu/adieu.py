@@ -3,11 +3,12 @@ import inflect
 def main():
     name()
 
-user_input=input("Name: ")
+
 names=[p.join(names)]
 
 def name():
     while True:
+        user_input=input("Name: ")
         try:
 
 
