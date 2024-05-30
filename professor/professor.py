@@ -8,15 +8,17 @@ def main():
 def get_level():
     user_input=input["Level: "]
     while True:
-        for n in range [1:3]:
-            continue
-        else:
+        for user_input in range [1:3]:
             break
+
+    except ValueError
+        pass
+
 
 
 def generate_integer(level):
-    ...
-
+    x=int(x)
+    y=int(y)
 
 if __name__ == "__main__":
     main()
