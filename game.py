@@ -17,9 +17,12 @@ while True:
 
 0<number<n
 while True:
-    user_input=input("Level: ")
+    user_input=int(input("Level: "))
     print("Guess: ", user_input)
-    
+
+    except ValueError:
+        pass
+
     if user_input>number:
         print("Too large!")
 
@@ -27,4 +30,5 @@ while True:
         print("Too smalle!")
     else:
         print("Just right!")
+        braek
 
