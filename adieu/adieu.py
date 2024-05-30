@@ -1,19 +1,29 @@
 import inflect
+import sys
 
 def main():
-    name()
+    names = get_names()
+    farewell(names)
 
+def get_names():
+    p = inflect.engine()
+    names = []
 
+    print("Enter names (press Ctrl-D to finish):")
+    try:
+        while True:
+            name = input()
+            if name:
+                names.append(name)
+    except EOFError:
+        pass
 
+    return names
 
-def name():
-    while True:
-        user_input=input("Name: ")
+def farewell(names):
+    p = inflect.engine()
+    names_str = p.join(names)
+    print(f"Adieu, adieu, to {names_str}")
 
-        try:
-        p=inflect.engine()
-        names=[p.join(names)]
-        print("Adieu, adieu, to ", user_input)
-
-        except ValueError
-            print ("Adieu, adieu, to ", names)
+if __name__ == "__main__":
+    main()
