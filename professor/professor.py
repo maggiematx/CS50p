@@ -2,6 +2,19 @@ import random
 
 
 def main():
+    problem=x+y
+    while True:
+        try:
+        #if answer is correct
+         if answer=input(random.problem())
+            continue
+         else:
+             print("EEE")
+             continue
+         
+
+
+
 
 
 
@@ -15,10 +28,9 @@ def get_level():
     return n
 
 
-
 def generate_integer(level):
-    x=random.randint(x)
-    y=random.randint(y)
+    x=random.randint(x)>0
+    y=random.randint(y)>0
     for n==1,
 
 if __name__ == "__main__":
