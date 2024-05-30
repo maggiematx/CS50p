@@ -7,8 +7,7 @@ number=random.randint(1,n)
 
 while True:
     try:
-    user_input=input("Level: ")
-    print("Guess: ", user_input)
+
 
     if n>0:
         break
@@ -16,7 +15,11 @@ while True:
     except ValueError:
         pass
 
-
+0<number<n
+while True:
+    user_input=input("Level: ")
+    print("Guess: ", user_input)
+    
     if user_input>number:
         print("Too large!")
 
