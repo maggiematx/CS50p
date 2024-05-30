@@ -6,11 +6,15 @@ number=random.randint(1,n)
 
 
 while True:
+    try:
     user_input=input("Level: ")
     print("Guess: ", user_input)
 
-    if user_input != int
-        pass
+    if n>0:
+        break
+
+    except ValueError:
+    pass
 
 
     if user_input>number:
