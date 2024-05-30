@@ -17,14 +17,7 @@ def get_names():
                 names.append(name)
 
     except EOFError:
-        pass
-    return names
-
-
-def farewell(names):
-    p = inflect.engine()
-    names_str = p.join(names)
-    print(f"Adieu, adieu, to {names_str}")
+        print(f"Adieu, adieu, to {p.join(names)}")
 
 
 if __name__ == "__main__":
