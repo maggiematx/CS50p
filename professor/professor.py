@@ -17,9 +17,9 @@ def get_level():
 
 
 def generate_integer(level):
-    x=int(x)
-    y=int(y)
-    for n==1, 
+    x=randint(x)
+    y=randint(y)
+    for n==1,
 
 if __name__ == "__main__":
     main()
