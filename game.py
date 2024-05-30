@@ -1,13 +1,14 @@
 from random import randint
 
 #pick a random number
+n=int > 0
 number=random.randint(1,n)
 
 
 while True:
     user_input=input("Level: ")
     print("Guess: ", user_input)
-    
+
     if user_input != int
         pass
 
