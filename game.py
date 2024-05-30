@@ -1,7 +1,7 @@
 from random import randint
 
 #pick a random number
-n=int > 0
+
 number=random.randint(1,n)
 
 
