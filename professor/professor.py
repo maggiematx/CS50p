@@ -6,9 +6,9 @@ def main():
 
 
 def get_level():
-    user_input=input["Level: "]
+    n=input["Level: "]
     while True:
-        for user_input in range [1:3]:
+        for n in range [1:3]:
             break
 
     except ValueError
@@ -19,6 +19,7 @@ def get_level():
 def generate_integer(level):
     x=int(x)
     y=int(y)
+    for n==1, 
 
 if __name__ == "__main__":
     main()
