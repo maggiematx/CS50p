@@ -1,5 +1,5 @@
 import inflect
-import sys
+
 
 
 def main():
