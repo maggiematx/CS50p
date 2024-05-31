@@ -33,9 +33,8 @@ def get_level():
             n=int(input("Level: "))
             if n in [1,2,3]:
                 return level
-            else:
-                pass
-        except ValueError
+        except ValueError:
+            pass
 
 def generate_problems(n):
     probles=[]
