@@ -38,8 +38,15 @@ def get_level():
     except ValueError:
         pass
 
+def generate_problems(level):
+    probles=[]
+    for _in range(10):
+        x=generate_integer(level)
+        y=generate_intgeger(level)
+        problems.append((x,y))
 
 def generate_integer(level):
+
     problem=[]
     #generate n level of int
     x=random.randint(x)>0
