@@ -23,18 +23,19 @@ def main():
                 attempts += 1
         else:
             print("correct_answer")
+
     print(f"score: {score}/10")
 
 
 def get_level():
-
     while True:
         try:
             n=int(input("Level: "))
-        if n in [1,2,3]:
-            return level
-        else:
-            raise ValueError
+            if n in [1,2,3]:
+                return level
+            else:
+                pass
+        except ValueError
 
 def generate_problems(n):
     probles=[]
