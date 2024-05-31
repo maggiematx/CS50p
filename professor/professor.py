@@ -22,9 +22,8 @@ def main():
             print("EEE")
             attempts += 1
     else:
-             print("EEE")
-             continue
-         #break after three EEE
+        print("correct_answer")
+
          braek
          #print the right answer
          print()
