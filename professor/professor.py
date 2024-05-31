@@ -15,8 +15,13 @@ def main():
          if user_answer==correct_anser:
             score += 1
             break
-            continue
          else:
+            print("EEE")
+            attempts += 1
+        except ValueError:
+            print("EEE")
+            attempts += 1
+    else:
              print("EEE")
              continue
          #break after three EEE
