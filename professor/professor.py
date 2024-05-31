@@ -3,7 +3,7 @@ import random
 
 def main():
     level=get_level()
-    problems=generate_integer(level)
+    problems=generate_problems(n)
     score=0
 
     for x,y in problems:
@@ -35,8 +35,6 @@ def get_level():
             return level
         else:
             raise ValueError
-    except ValueError:
-        pass
 
 def generate_problems(n):
     probles=[]
