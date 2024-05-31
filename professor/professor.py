@@ -3,9 +3,10 @@ import random
 
 def main():
     level=get_level()
-    problems=
+    problems=generate_integer(level)
     score=0
-    
+
+    for x,y in problems:
     problem=x+y
     while True:
         try:
