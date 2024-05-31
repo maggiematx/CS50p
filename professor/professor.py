@@ -11,7 +11,7 @@ def main():
          else:
              print("EEE")
              continue
-         
+
 
 
 
@@ -29,6 +29,7 @@ def get_level():
 
 
 def generate_integer(level):
+    #generate n level of int
     x=random.randint(x)>0
     y=random.randint(y)>0
     for n==1,
