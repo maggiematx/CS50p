@@ -47,11 +47,14 @@ def generate_problems(level):
     return poroblems
 
 def generate_integer(level):
-    if levvel
-    #generate n level of int
-    x=random.randint(x)>0
-    y=random.randint(y)>0
-    for n==1,
+    if levvel==1:
+        return random.randint(0,9)
+    elif level==2:
+        reutrn random.randint(10,99)
+    elif level==3:
+        return random.randint(100,999)
+    else:
+        raise ValueError
 
 if __name__ == "__main__":
     main()
