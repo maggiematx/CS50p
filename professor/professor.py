@@ -1,8 +1,7 @@
 import random
 
-
 def main():
-    level=get_level()
+    n=get_level()
     problems=generate_problems(n)
     score=0
 
@@ -12,7 +11,7 @@ def main():
         while attempts<3:
             try:
                 user_answer=int(input(f"{x}+{y}= "))
-                if user_answer==correct_anser:
+                if user_answer==correct_answer:
                     score += 1
                     break
                 else:
@@ -32,23 +31,23 @@ def get_level():
         try:
             n=int(input("Level: "))
             if n in [1,2,3]:
-                return level
+                return n
         except ValueError:
             pass
 
 def generate_problems(n):
-    probles=[]
+    problems=[]
     for _ in range(10):
         x=generate_integer(n)
-        y=generate_intgeger(n)
+        y=generate_integer(n)
         problems.append((x,y))
-    return poroblems
+    return problems
 
 def generate_integer(n):
     if n==1:
         return random.randint(0,9)
     elif n==2:
-        reutrn random.randint(10,99)
+        return random.randint(10,99)
     elif n==3:
         return random.randint(100,999)
     else:
