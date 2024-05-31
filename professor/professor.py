@@ -7,11 +7,14 @@ def main():
     score=0
 
     for x,y in problems:
-    problem=x+y
-    while True:
+    correct_answer=x+y
+    attempts=0
+    while attempts<3:
         try:
-        #if answer is correct
-         if answer=input(random.problem())
+         user_answer=int(input(f"{x}+{y}= "))
+         if user_answer==correct_anser:
+            score += 1
+            break
             continue
          else:
              print("EEE")
