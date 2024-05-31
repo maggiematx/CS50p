@@ -7,36 +7,24 @@ def main():
     score=0
 
     for x,y in problems:
-    correct_answer=x+y
-    attempts=0
-    while attempts<3:
-        try:
-         user_answer=int(input(f"{x}+{y}= "))
-         if user_answer==correct_anser:
-            score += 1
-            break
-         else:
-            print("EEE")
-            attempts += 1
-        except ValueError:
-            print("EEE")
-            attempts += 1
-    else:
-        print("correct_answer")
-
-         braek
-         #print the right answer
-         print()
-
-
-    total_score=sum()
-    print("Score:, ", total_score)
-
-
-
-
-
-
+        correct_answer=x+y
+        attempts=0
+        while attempts<3:
+            try:
+                user_answer=int(input(f"{x}+{y}= "))
+                if user_answer==correct_anser:
+                    score += 1
+                    break
+                else:
+                    print("EEE")
+                    attempts += 1
+            except ValueError:
+                print("EEE")
+                attempts += 1
+        else:
+            print("correct_answer")
+    print(f"score: {score}/10")
+    
 
 def get_level():
     n=input["Level: "]
