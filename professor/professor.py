@@ -24,16 +24,19 @@ def main():
         else:
             print("correct_answer")
     print(f"score: {score}/10")
-    
+
 
 def get_level():
-    n=input["Level: "]
+
     while True:
-        for n in range [1:3]:
-            break
+        try:
+            n=int(input("Level: "))
+        if n in [1,2,3]:
+            return level
         else:
             raise ValueError
-    return n
+    except ValueError:
+        pass
 
 
 def generate_integer(level):
