@@ -12,6 +12,10 @@ def main():
              print("EEE")
              continue
 
+         
+
+    print("Score:, ",)
+
 
 
 
