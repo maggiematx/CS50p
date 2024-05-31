@@ -2,6 +2,8 @@ import random
 
 
 def main():
+    level=get_level()
+    problems=
     problem=x+y
     while True:
         try:
