@@ -11,10 +11,14 @@ def main():
          else:
              print("EEE")
              continue
+         #break after three EEE
+         braek
+         #print the right answer
+         print()
 
-         
 
-    print("Score:, ",)
+    total_score=sum()
+    print("Score:, ", total_score)
 
 
 
