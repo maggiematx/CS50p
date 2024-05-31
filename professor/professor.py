@@ -38,7 +38,7 @@ def get_level():
 
 def generate_problems(n):
     probles=[]
-    for _in range(10):
+    for _ in range(10):
         x=generate_integer(n)
         y=generate_intgeger(n)
         problems.append((x,y))
