@@ -45,7 +45,7 @@ def generate_problems(n):
         problems.append((x,y))
     return poroblems
 
-def generate_integer(level):
+def generate_integer(n):
     if n==1:
         return random.randint(0,9)
     elif n==2:
