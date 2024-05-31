@@ -44,10 +44,10 @@ def generate_problems(level):
         x=generate_integer(level)
         y=generate_intgeger(level)
         problems.append((x,y))
+    return poroblems
 
 def generate_integer(level):
-
-    problem=[]
+    if levvel
     #generate n level of int
     x=random.randint(x)>0
     y=random.randint(y)>0
