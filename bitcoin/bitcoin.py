@@ -3,7 +3,7 @@ import sys
 import json
 
 def main():
-    amount=get_amount(sys.argv)
+    amount=get_amount(sys.argv[1])
 
     if len(sys.argv)==1:
         sys.exit("Missing command-line argument")
@@ -14,7 +14,7 @@ def main():
         print(f"${amount:,.4f}")
 
 def get_amount():
-    amount=
+    get_amount=price * (sys.argv[1])
 
     try:
     response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json" + sys.argv[1])
