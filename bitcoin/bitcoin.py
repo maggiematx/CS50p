@@ -12,17 +12,14 @@ def main():
     else:
         print(f"${amount:,.4f}")
 
+
+def get_amount():
+    try:
     response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json" + sys.argv[1])
 
     o=resopnse.json()
     for result in o["results"]:
         print
 
-def get_amount():
-
-
-
-try:
-    ...
-except requests.RequestException:
-    ...
+    except requests.RequestException:
+    
