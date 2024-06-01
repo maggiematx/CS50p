@@ -7,6 +7,8 @@ def main():
 
     if len(sys.argv)==1:
         sys.exit("Missing command-line argument")
+    elif len(sys.argv) != 2:
+        
     #if input cannot be converted to a float
     elif:
         sys.exit("Command-line argument is not a number")
