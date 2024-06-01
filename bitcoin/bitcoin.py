@@ -14,14 +14,14 @@ def main():
         print(f"${amount:,.4f}")
 
 def get_amount():
-    get_amount=price * (sys.argv[1])
-
+    get_amount=result * (sys.argv[1])
+    while true:
     try:
-    response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json" + sys.argv[1])
+        response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json" + sys.argv[1])
 
-    o=resopnse.json()
-    for result in o["results"]:
-        print(result["rate_float"])
+        o=resopnse.json()
+        for result in o["results"]:
+            return result["rate_float"]
 
     except requests.RequestException:
 
