@@ -4,7 +4,10 @@ import json
 
 if len(sys.argv)==1:
     sys.exit("Missing command-line argument")
-elif 
+elif
+    sys.exit("Command-line argument is not a number")
+else:
+    print(f"${amount:,.4f}")
 
 
 try:
