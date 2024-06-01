@@ -21,7 +21,7 @@ def get_price():
         response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
         response.raise_for_status()
         o=response.json()
-        return o["bpi"]["usd"]["rate_float"]
+        return o["bpi"]["USD"]["rate_float"]
 
     except requests.RequestException:
         pass
