@@ -9,6 +9,8 @@ elif
 else:
     print(f"${amount:,.4f}")
 
+response=requests.get()
+
 def amount:
 
 
