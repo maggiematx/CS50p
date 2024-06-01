@@ -16,15 +16,15 @@ def main():
     cost=amount*price
     print(f"${cost:,.4f}")
 
-get_price():
+def get_price():
     try:
         response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
 
-        o=resopnse.json()
-        for result in o["results"]:
-            return result["rate_float"]
+        o=response.json()
+        return o["rate_float"]
 
     except requests.RequestException:
         pass
 
+main()
