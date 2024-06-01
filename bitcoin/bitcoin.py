@@ -3,7 +3,8 @@ import sys
 import json
 
 def main():
-    get_amount():
+    amount=get_amount(sys.argv)
+    
     if len(sys.argv)==1:
         sys.exit("Missing command-line argument")
     #if input cannot be converted to a float
@@ -11,6 +12,8 @@ def main():
         sys.exit("Command-line argument is not a number")
     else:
         print(f"${amount:,.4f}")
+
+
 
 
 def get_amount():
@@ -22,4 +25,4 @@ def get_amount():
         print
 
     except requests.RequestException:
-    
+
