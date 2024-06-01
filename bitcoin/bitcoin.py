@@ -13,8 +13,8 @@ def main():
         sys.exit("Command-line argument is not a number")
 
     get_price()
-    get_amount()
-    print(f"${amount:,.4f}")
+    get_cost()
+    print(f"${cost:,.4f}")
 
       amount=get_amount(sys.argv[1])
 
