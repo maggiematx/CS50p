@@ -3,6 +3,7 @@ import sys
 import json
 
 if len(sys.argv)
+    sys.exit()
 
 
 
