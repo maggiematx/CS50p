@@ -9,6 +9,9 @@ elif
 else:
     print(f"${amount:,.4f}")
 
+def amount:
+
+
 
 try:
     ...
