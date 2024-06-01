@@ -24,4 +24,5 @@ def get_amount():
             return result["rate_float"]
 
     except requests.RequestException:
+        pass
 
