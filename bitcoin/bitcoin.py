@@ -20,8 +20,8 @@ def get_amount():
     response=requests.get("https://api.coindesk.com/v1/bpi/currentprice.json" + sys.argv[1])
 
     o=resopnse.json()
-    for price in o["results"]:
-        print 
+    for result in o["results"]:
+        print(result["rate_float"])
 
     except requests.RequestException:
 
