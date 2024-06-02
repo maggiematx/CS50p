@@ -3,8 +3,8 @@ def main():
     hello(name)
 
 
-def hello(to="world"):
-    print("hello", to)
+def hello():
+    print("hello", )
 
 if __name__ == "__main__":
     main()
