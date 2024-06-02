@@ -1,11 +1,10 @@
 def main():
-    x = input("What's x? ")
-    print("x squared is", square(x))
+    name=input("what's your name")
+    print(hello(name))
 
 
-def square(n):
-    return n * n
-
+def hello(to):
+    print("hello", to)
 
 if __name__ == "__main__":
     main()
