@@ -3,6 +3,7 @@ from test import square
 
 def main():
     test_square()
+    
 def test_square():
     try:
         assert square(2) == 4
