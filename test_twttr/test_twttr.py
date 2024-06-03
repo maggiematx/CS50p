@@ -1,18 +1,25 @@
-from twttr import shortened
+from twttr import shorten
 
-def test_argument():
+def test_basic_argument():
     # Basic test cases
-    assert shortened("hello world") == "hll wrld"
-    assert shortened("aeiou") == ""
-    assert shortened("") == ""
+    assert shorten("hello world") == "hll wrld"
 
-    # Edge test cases
-    assert shortened("HELLO WORLD") == "HLL WRLD"  # Test uppercase letters
-    assert shortened("AEIOU") == ""  # Uppercase vowels should also be removed
-    assert shortened("12345") == "12345"  # Numbers should remain unchanged
-    assert shortened("hello123") == "hll123"  # Mixed letters and numbers
-    assert shortened("hello!") == "hll!"  # Special characters should remain unchanged
+def test_vowel():
+    assert shorten("aeiou") == ""
+
+def test_no_input():
+    assert shorten("") == ""
+
+def test_caps():
+    assert shorten("HELLO WORLD") == "HLL WRLD"
+    assert shorten("AEIOU") == ""
+
+def test_numbers():
+    assert shorten("12345") == "12345"
+    assert shorten("hello123") == "hll123"
+
+def test_special():
+    assert shorten("hello!") == "hll!"
 
 if __name__ == "__main__":
     test_argument()
- 

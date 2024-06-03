@@ -1,8 +1,8 @@
 def main():
     user_input=input("Input: ")
-    print(shortened(user_input))
+    print(shorten(user_input))
 
-def shortened(text):
+def shorten(text):
     v=["a", "e","i","o","u"]
     nv=""
     for i in text:
