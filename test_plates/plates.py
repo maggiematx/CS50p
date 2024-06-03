@@ -8,7 +8,8 @@ def main():
 
 def is_valid(s):
     plate=[]
-    while tr
+    while true:
+        
 
 
 main()
