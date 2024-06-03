@@ -10,7 +10,8 @@ def is_valid(s):
         if s <2 or s >6:
              return false
 
-        elif len(plate)=<6 and
+       if not s[:2].isalpha():
+            return false
 
         elif
 
