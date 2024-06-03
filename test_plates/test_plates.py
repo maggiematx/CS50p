@@ -1,4 +1,4 @@
 from plates import is_valid
 
 def test_num():
-    assert value()
+    assert value(" 88 ")
