@@ -10,4 +10,5 @@ def shortened(text):
             nv += i
     return nv
 
-main()
+if __name__=="__main__"
+    main()
