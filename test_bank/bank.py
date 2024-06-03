@@ -4,9 +4,9 @@ def main():
 
 
 def value(greeting):
-    if greeting startswith "hello":
+    if greeting.startswith ("hello"):
         return 0
-    elif greeting startswith "h", and != "hello":
+    elif greeting.startswith ("h"), and != "hello":
         return 20
     else:
         return 100
