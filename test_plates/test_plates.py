@@ -3,6 +3,7 @@ from plates import is_valid
 def test_basic_argument():
     assert is_valid("CS50") == True
     assert is_valid("CS")== True
+    assert is_valid("C50") == False
 
 def test_len():
     assert is_valid("CS50909")==False
@@ -14,7 +15,7 @@ def test_num():
 
 def test_special_char():
     assert is_valid("#$ma") == False
-    assert is_valid("CS50#$)== False
+    assert is_valid("CS50#$")== False
 
 
 
