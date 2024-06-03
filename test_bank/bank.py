@@ -1,6 +1,6 @@
 def main():
     user_input=input("Greeting: ")
-    print(value(greeting))
+    print(value(user_input))
 
 
 def value(greeting):
