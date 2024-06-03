@@ -5,8 +5,6 @@ def test_basic_argument():
     assert value("hello")==0
     assert value("how are you?")==20
 
-
-
 def test_cap():
     assert value(" HI ")==20
 
