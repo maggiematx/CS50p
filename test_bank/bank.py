@@ -4,7 +4,6 @@ def main():
 
 
 def value(greeting):
-    greeting=input("Greeting: ").lower().strip()
     if greeting.startswith ("hello"):
         return 0
     elif greeting.startswith ("h") and greeting != "hello":
