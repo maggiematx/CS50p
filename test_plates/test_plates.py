@@ -7,7 +7,7 @@ def test_basic_argument():
 
 def test_len():
     assert is_valid("CS50909")==False
-    assert is_valid("MAMAMAMA")==False
+    assert is_valid("CSCSCS")==False
 
 def test_num():
     assert is_valid(" 88") == False
