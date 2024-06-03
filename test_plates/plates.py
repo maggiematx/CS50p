@@ -7,7 +7,8 @@ def main():
 
 
 def is_valid(s):
-    if plate
+    plate=[]
+    while tr
 
 
 main()
