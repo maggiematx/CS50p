@@ -9,7 +9,10 @@ def main():
 def is_valid(s):
     plate=[]
     while true:
-        
+        if plate[1:2]
+
+        elif len(plate)=<6 and 
+
 
 
 main()
