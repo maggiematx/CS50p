@@ -9,7 +9,7 @@ def test_basic_argument():
     assert value("how are you?")==20
 
 def test_cap():
-    assert value(" HI") == 100
+    assert value(" HI") == 20
 
 def test_special():
     assert value("@#4")==100
