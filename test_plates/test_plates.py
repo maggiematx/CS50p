@@ -10,7 +10,7 @@ def test_len():
     assert is_valid("MAMAMAMA")==False
 
 def test_num():
-    assert is_valid(" 88 ") == False
+    assert is_valid("88") == False
     assert is_valid("CS0505")==False
 
 def test_special_char():
