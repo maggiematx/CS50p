@@ -11,7 +11,11 @@ def is_valid(s):
     while true:
         if plate[1:2]
 
-        elif len(plate)=<6 and 
+        elif len(plate)=<6 and
+
+        elif
+
+        elif 
 
 
 
