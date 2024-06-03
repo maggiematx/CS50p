@@ -17,6 +17,7 @@ def is_valid(s):
     # Track if a digit has been encountered
     has_digit = False
 
+
     for char in s:
         if not char.isalnum():
             return False  # Contains invalid characters
