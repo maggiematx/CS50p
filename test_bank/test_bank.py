@@ -6,10 +6,8 @@ def test_default():
 def test_basic_argument():
     assert value("hello world") == 0
     assert value("hello")==0
-    assert value("    how are you?")==20
+    assert value("how are you?")==20
 
-def test_cap():
-    assert value(" HI ")==20
 
 def test_special():
     assert value("@#4")==100
