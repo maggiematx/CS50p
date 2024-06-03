@@ -13,6 +13,8 @@ def test_num():
     assert is_valid(" 88") == False
     assert is_valid("50CS")==False
     assert is_valid("CS0505")==False
+    assert is_valid("CS05")==False
+    assert is_valid("00")==False
 
 def test_special_char():
     assert is_valid("#$ma") == False
