@@ -1,9 +1,5 @@
 from bank import value
 
-def test_default():
-    assert hello() == "hello, world"
-
-
 def test_basic_argument():
     assert value("hello world") == 0
     assert value("hello")==0
