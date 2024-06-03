@@ -5,18 +5,31 @@ def main():
     else:
         print("Invalid")
 
-
 def is_valid(s):
-        if s <2 or s >6:
-             return false
+    # Check length of plate (2-6 characters)
+    if len(s) < 2 or len(s) > 6:
+        return False
 
-       if not s[:2].isalpha():
-            return false
+    # Check if the first two characters are letters
+    if not s[:2].isalpha():
+        return False
 
-        elif
+    # Track if a digit has been encountered
+    has_digit = False
 
-        elif
+    for char in s:
+        if not char.isalnum():
+            return False  # Contains invalid characters
 
+        if char.isdigit():
+            if char == '0' and not has_digit:
+                return False  # First digit is '0'
+            has_digit = True
 
+        if has_digit and char.isalpha():
+            return False  # Letter found after a digit
 
-main()
+    return True
+
+if __name__ == "__main__":
+    main()
