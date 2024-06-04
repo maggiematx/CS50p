@@ -7,8 +7,7 @@ def main():
 
             if x > y:
                 raise ValueError
-
-            if 99 <= percentage <= 100:
+            elif 99 <= percentage <= 100:
                 print('F')
             elif percentage<=1:
                 print('E')
