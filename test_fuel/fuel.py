@@ -13,7 +13,8 @@ def convert(fraction):
                 return E
             elif fraction >= 0.99:
                 return F
-            else  x>y or y==0:
+            else  x>y:
+                
 
         except(ValueError, ZeroDivisonError):
             pass
