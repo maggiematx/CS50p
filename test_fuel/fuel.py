@@ -1,4 +1,5 @@
 def main():
+    while true:
     fraction=input("Fraction: ")
     x,y=map(int, fraction.split("/"))
     result=convert(x,y)
