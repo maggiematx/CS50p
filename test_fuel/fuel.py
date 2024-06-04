@@ -1,5 +1,5 @@
 def main():
-    while true:
+    while True:
         try:
             fraction=input("Fraction: ")
             x,y=map(int, fraction.split("/"))
@@ -21,9 +21,9 @@ def convert(x,y):
             return E
         elif fraction >= 0.99:
             return F
-        elif  x>y:
-            return None
         else:
+            return None
+
 
 
 def gauge(percentage):
