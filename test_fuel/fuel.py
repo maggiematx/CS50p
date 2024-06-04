@@ -1,33 +1,32 @@
 def main():
     while True:
         try:
-            fraction=input("Fraction: ")
-            x,y=map(int, fraction.split("/"))
-            if y==0 or x>y:
+            fraction = input("Fraction: ")
+            x, y = map(int, fraction.split("/"))
+            if y == 0 or x > y:
                 continue
 
-            result=convert(x,y)
-
-            percentage=guage(result)
-            print(percentage)
+            result = convert(x, y)
+            if result is not None:
+                print(result)
+            else:
+                percentage = gauge(x, y)
+                print(f"{percentage}%")
 
             break
         except (ValueError, ZeroDivisionError):
             pass
 
+def convert(x, y):
+    fraction = x / y
+    if fraction <= 0.01:
+        return "E"
+    elif fraction >= 0.99:
+        return "F"
+    else:
+        return None
 
-def convert(x,y):
-        fraction=x/y
-        if fraction <=0.01:
-            return E
-        elif fraction >= 0.99:
-            return F
-        else:
-            return None
-
-
-
-def guage(x, y):
+def gauge(x, y):
     return round((x / y) * 100)
 
 if __name__ == "__main__":
