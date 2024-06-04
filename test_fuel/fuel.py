@@ -3,12 +3,13 @@ def main():
     fraction=input("Fraction: ")
     x,y=map(int, fraction.split("/"))
     result=convert(x,y)
-    percentage=guage(result)
-    print(percentage)
+    if result is not None:
+        percentage=guage(result)
+        print(percentage)
+        break
 
 
-def convert(fraction):
-    while true:
+def convert(x,y):
         try:
             if y==0:
                 raise ZeroDivisionError
@@ -17,8 +18,9 @@ def convert(fraction):
             elif fraction >= 0.99:
                 return F
             elif  x>y:
+                return None
             else:
-                pass
+                break
         except(ValueError, ZeroDivisonError):
             pass
 
