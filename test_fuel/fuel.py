@@ -10,6 +10,7 @@ def main():
 
             percentage=guage(result)
             print(percentage)
+
             break
         except (ValueError, ZeroDivisionError):
             pass
@@ -26,7 +27,7 @@ def convert(x,y):
 
 
 
-def guage(x,y):
+def guage(result):
     return round((x/y)*100)
 
 if __name__ == "__main__":
