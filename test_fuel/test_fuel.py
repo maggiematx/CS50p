@@ -1,9 +1,8 @@
 from fuel import convert and gauge
 
 def test_basic_argument():
-    assert convert(") == True
-    assert is_valid("CS") == True
-    assert is_valid("C50") == False
+    assert convert("1/2") == 50%
+    assert gauge("50%) == .5
 
 def test_len():
     assert is_valid("CS50909") == False
