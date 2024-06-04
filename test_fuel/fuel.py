@@ -1,12 +1,12 @@
 def main():
     while true:
-    fraction=input("Fraction: ")
-    x,y=map(int, fraction.split("/"))
-    result=convert(x,y)
-    if result is not None:
-        percentage=guage(result)
-        print(percentage)
-        break
+        fraction=input("Fraction: ")
+        x,y=map(int, fraction.split("/"))
+        result=convert(x,y)
+        if result is not None:
+            percentage=guage(result)
+            print(percentage)
+            break
 
 
 def convert(x,y):
@@ -27,5 +27,5 @@ def convert(x,y):
 def gauge(percentage):
     return fraction*100
 
-if__name__=="__main__"
+if __name__ == "__main__":
     main()
