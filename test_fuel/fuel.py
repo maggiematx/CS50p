@@ -26,8 +26,8 @@ def convert(x,y):
 
 
 
-def guage(fraction):
-    return round(fraction)
+def guage(x,y):
+    return round((x/y)*100)
 
 if __name__ == "__main__":
     main()
