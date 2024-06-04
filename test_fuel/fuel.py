@@ -1,8 +1,8 @@
 def main():
     x=int(x)
     y=int(y)
-    x/y
+    convert(x/y)
 
 
 def convert(fraction):
-    fraction=
+    fraction= [.0f]
