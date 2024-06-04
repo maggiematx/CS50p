@@ -5,3 +5,4 @@ bankaccount Product:
     self.number=number
     self.balance=balance
 def (self):
+obj1=
