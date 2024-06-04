@@ -6,11 +6,11 @@ class BankAccount:
         self.balance = balance
 
     def display_balance(self):
-        print(f"Current Balance for {self.name}: ${self.balance:.2f}")
+        print(f"Current Balance for {self.name}: ${self.balance:}")
 
 # Example usage:
 def main():
- 
+
     obj1 = BankAccount("Maggie", 12345, 500)
 
     # Display the balance
