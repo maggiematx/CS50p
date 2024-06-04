@@ -1,6 +1,6 @@
 
 class BankAccount:
-    def __init__(self, name, account_number, balance):
+    def __init__(self, name, account_number, balance=0):
         self.name = name
         self.account_number = account_number
         self.balance = balance
@@ -9,8 +9,9 @@ class BankAccount:
         print(f"Current Balance for {self.name}: ${self.balance:}")
 
 
-obj1 = BankAccount("Maggie", 12345, 500)
+    obj1 = BankAccount("Maggie", 12345, 500)
 
-obj1.display_balance()
+
+    obj1.display_balance()
 
 
