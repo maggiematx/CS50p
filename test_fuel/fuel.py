@@ -20,9 +20,6 @@ def main():
             pass
 
 
-
-
-
 def convert(fractioin):
 
 def guage(percentage):
