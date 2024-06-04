@@ -9,13 +9,13 @@ def main():
 def convert(fraction):
     while true:
         try:
+            if y==0:
+                raise ZeroDivisionError
             if fraction <=0.01:
                 return E
             elif fraction >= 0.99:
                 return F
-            else  x>y:
-                
-
+            elif  x>y:
         except(ValueError, ZeroDivisonError):
             pass
 
