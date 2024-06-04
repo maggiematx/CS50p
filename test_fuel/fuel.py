@@ -9,14 +9,13 @@ def main():
 def convert(fraction):
     while true:
         try:
-            if fraction =<0.01:
+            if fraction <=0.01:
                 return E
             elif fraction >= 0.99:
                 return F
-            elif x != int or y != int, or x>y:
-                except ValueError:
-                    pass
-        except ZeroDivisonError:
+            else  x>y or y==0:
+
+        except(ValueError, ZeroDivisonError):
             pass
 
 def gauge(percentage):
