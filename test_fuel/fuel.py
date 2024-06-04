@@ -1,6 +1,5 @@
 def main():
-    x=int(x)
-    y=int(y)
+    x,y=map(int, fraction.split("/"))
     result=convert(x,y)
     print(percentage)
 
