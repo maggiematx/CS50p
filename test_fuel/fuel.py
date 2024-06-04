@@ -1,7 +1,8 @@
 def main():
     x=int(x)
     y=int(y)
-    convert()
+    x/y=convert(x/y)
+    percentage=gauge(percentage)
 
 
 def convert(fraction):
@@ -22,3 +23,6 @@ def convert(fraction):
 def gauge(percentage):
     percentage=x/y * 100%
     return
+
+if__name__=="__main__"
+    main()
