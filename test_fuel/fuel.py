@@ -1,8 +1,8 @@
 def main():
     x=int(x)
     y=int(y)
-    x/y=convert(x/y)
-    percentage=gauge(percentage)
+    result=convert(x,y)
+    print(percentage)
 
 
 def convert(fraction):
