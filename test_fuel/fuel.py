@@ -1,11 +1,12 @@
 def main():
     x=int(x)
     y=int(y)
-    convert(x/y)
+    convert()
 
 
 def convert(fraction):
-    fraction= [.0f]*100%
+    fraction=input("Fraction: ")
+    return fraction.0f*100%
 
     while true:
         try:
