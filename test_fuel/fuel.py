@@ -1,7 +1,6 @@
 def main():
      while True:
         try:
-
             fraction= input("Fraction: ")
             x, y = map(int,fraction.split('/'))
 
@@ -20,6 +19,8 @@ def main():
 
 
 def convert(fractioin):
+    fraction=x / y
+    x, y = map(int,fraction.split('/'))
 
 def guage(percentage):
         percentage = (x / y) * 100
