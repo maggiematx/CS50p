@@ -3,13 +3,15 @@ def main():
 while True:
     try:
         fraction= input("Fraction: ")
-        numerator, denominator = map(int,fraction.split('/'))
+        x, y = map(int,fraction.split('/'))
 
-        if numerator > denominator:
+        if x > y:
             raise ValueError
 
+def convert(fractioin):
+     
 def guage(percentage):
-        percentage = (numerator / denominator) * 100
+        percentage = (x / y) * 100
 
         if 99 <= percentage <= 100:
             print('F')
