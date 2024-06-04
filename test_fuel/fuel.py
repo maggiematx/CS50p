@@ -27,7 +27,7 @@ def convert(x,y):
 
 
 def guage(fraction):
-    return round(fraction*100)
+    return round(fraction*100) if fraction is not None else None
 
 if __name__ == "__main__":
     main()
