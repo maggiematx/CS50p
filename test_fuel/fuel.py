@@ -6,7 +6,6 @@ def main():
 
 def convert(fraction):
     fraction=input("Fraction: ")
-    return fraction.0f*100%
 
     while true:
         try:
@@ -15,8 +14,11 @@ def convert(fraction):
             elif fraction >= 99%:
                 return F
             elif x != int or y != int, or x>y:
-                pass
+                excep ValueError:
+                    pass
         except ZeroDivisonError:
             pass
 
-
+def gauge(percentage):
+    percentage=x/y * 100%
+    return
