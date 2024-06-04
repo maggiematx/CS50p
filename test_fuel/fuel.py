@@ -10,9 +10,9 @@ def convert(fraction):
 
     while true:
         try:
-            if fraction =<1%:
+            if fraction =<0.01:
                 return E
-            elif fraction >= 99%:
+            elif fraction >= 0.99:
                 return F
             elif x != int or y != int, or x>y:
                 excep ValueError:
@@ -21,8 +21,7 @@ def convert(fraction):
             pass
 
 def gauge(percentage):
-    percentage=x/y * 100%
-    return
+    return fraction*100
 
 if__name__=="__main__"
     main()
