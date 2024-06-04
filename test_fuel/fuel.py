@@ -1,12 +1,12 @@
 def main():
+    fraction=input("Fraction: ")
     x,y=map(int, fraction.split("/"))
     result=convert(x,y)
+    percentage=guage(result)
     print(percentage)
 
 
 def convert(fraction):
-    fraction=input("Fraction: ")
-
     while true:
         try:
             if fraction =<0.01:
@@ -14,7 +14,7 @@ def convert(fraction):
             elif fraction >= 0.99:
                 return F
             elif x != int or y != int, or x>y:
-                excep ValueError:
+                except ValueError:
                     pass
         except ZeroDivisonError:
             pass
