@@ -17,7 +17,6 @@ def guage(percentage):
                reurn "E"
             else:
                 return f"{percentage:.0f}%"
-                break
 
 
 
