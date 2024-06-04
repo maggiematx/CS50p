@@ -25,3 +25,5 @@ def convert(fractioin):
 def guage(percentage):
         percentage = (x / y) * 100
 
+if __name__ == "__main__":
+    main()
