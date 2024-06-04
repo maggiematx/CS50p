@@ -26,7 +26,7 @@ def convert(x,y):
 
 
 
-def gauge(percentage):
+def guage(percentage):
     return round(fraction*100)
 
 if __name__ == "__main__":
