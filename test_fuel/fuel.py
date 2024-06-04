@@ -16,6 +16,8 @@ def convert(fraction):
             elif fraction >= 0.99:
                 return F
             elif  x>y:
+            else:
+                pass
         except(ValueError, ZeroDivisonError):
             pass
 
