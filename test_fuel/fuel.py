@@ -10,10 +10,11 @@ def main():
 
 def convert(fraction):
     x, y = map(int, fraction.split('/'))
-    if x>y:
-        raise ValueError
     if y == 0:
         raise ZeroDivisionError
+    elif x>y:
+        raise ValueError
+
     percentage = (x / y) * 100
     return percentage
 
