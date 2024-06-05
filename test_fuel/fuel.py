@@ -7,6 +7,13 @@ def main():
             break
         except (ValueError, ZeroDivisionError):
             pass
+        
+def convert(fraction):
+    x, y = map(int, fraction.split('/'))
+    if y == 0:
+        raise ZeroDivisionError
+    percentage = (x / y) * 100
+    return percentage
 
 def gauge(percentage):
     if percentage > 100:
@@ -18,12 +25,6 @@ def gauge(percentage):
     else:
         return f"{percentage:.0f}%"
 
-def convert(fraction):
-    x, y = map(int, fraction.split('/'))
-    if y == 0:
-        raise ZeroDivisionError
-    percentage = (x / y) * 100
-    return percentage
 
 if __name__ == "__main__":
     main()
