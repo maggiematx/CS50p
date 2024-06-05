@@ -18,5 +18,5 @@ def test_value_error():
         convert("x/y")
 
 def test_zero_divison_error():
-    with pytest.raises(ZeroDivisonError):
+    with pytest.raises(ZeroDivisionError):
         convert("5/0")
