@@ -16,4 +16,14 @@ def convert(fraction):
             elif y==0:
                 raise ZeroDivisonError
             else:
-                
+                percentage=x/y*100
+        except:
+
+def gauge(percentage):
+    if percentage<=1:
+        return "E"
+    elif percentage=>99:
+        return "F"
+    else:
+        return 
+
