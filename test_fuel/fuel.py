@@ -19,7 +19,6 @@ def convert(fraction):
     return percentage
 
 def gauge(percentage):
-
     if 99 <= percentage <= 100:
         return "F"
     elif percentage <= 1:
