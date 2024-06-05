@@ -1,14 +1,12 @@
 def main():
-    student = get_student()
-    if student[0] == "Padma":
-        student[1] = "Ravenclaw"
-    print(f"{student[0]} from {student[1]}")
+    name, house = get_student()
+    print(f"{name} from {house}")
 
 
 def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    return name, house
+    n = input("Name: ")
+    h = input("House: ")
+    return n, h
 
 
 if __name__ == "__main__":
