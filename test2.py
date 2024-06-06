@@ -1,8 +1,9 @@
 class Product:
 
-    def __init__(self,name,price,discount percentage rate):
+    def __init__(self,name,price,discount_percentage_rate):
                  self.name=name
-                 self.hobby=hobby
+                 self.price=price
+
     def do_hobby(self):
                 if self.hobby=="Tennis":
                            print(self.name,"plays tennis")
