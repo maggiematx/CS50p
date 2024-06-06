@@ -2,8 +2,8 @@ class Product:
 
     def __init__(self,name,price,discount_percentage):
                  self.name=name
-                 self.price=price
-                 self.discount_percentage=discount_percentage
+                 self.price=float(price)
+                 self.discount_percentage=discount_percentage/100
 
     def get_discount_amount(self):
                 discount=self.price*self.discount_percentage
