@@ -1,6 +1,6 @@
-class Student:
-    """   Represents a class of students. """
-    def __init__(self,name,hobby):
+class Product:
+
+    def __init__(self,name,price,discount percentage rate):
                  self.name=name
                  self.hobby=hobby
     def do_hobby(self):
