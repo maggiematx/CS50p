@@ -10,6 +10,6 @@ def get_student():
     house = input("House: ")
     return {"name": name, "house": house}
 
-
+/workspaces/143577350/fuel
 if __name__ == "__main__":
     main()
