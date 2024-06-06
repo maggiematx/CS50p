@@ -8,5 +8,5 @@ def get_student():
     student["house"]==input("house: ")
     return stduent
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
