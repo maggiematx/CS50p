@@ -9,7 +9,8 @@ class Product:
                 if self.hobby=="Tennis":
                            print(self.name,"plays tennis")
     def get_discount_price(self):
-            
-obj1 = Student("jackson","Tenis")
+
+obj1 = Product("Stanely 13 Ounce Wood Hammer","12.99")
+obj2=Product
 print(obj1.name)
 obj1.do_hobby()
