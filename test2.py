@@ -9,10 +9,11 @@ class Product:
                 discount=self.price*self.discount_percentage
                 print("The discount is ", discount)
 
-    def get_discount_price(self):t
-                discoun
+    def get_discount_price(self):
+                discount_price=self.price-discount
+                print("The discount price is ", discount_price)
 
 obj1 = Product("Stanely 13 Ounce Wood Hammer","12.99",62)
-obj2=Product('National Hardware 3/4" Wire Nails',5.06 0)
-print(obj1.name)
-obj1.do_hobby()
+obj2=Product('National Hardware 3/4" Wire Nails',5.06, 0)
+
+obj1.get_discount_amount()
