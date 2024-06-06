@@ -13,7 +13,7 @@ class Product:
                 discount_price=self.price-discount
                 print("The discount price is ", discount_price)
 
-obj1 = Product("Stanely 13 Ounce Wood Hammer","12.99",62)
+obj1 = Product("Stanely 13 Ounce Wood Hammer","500",.10)
 obj2=Product('National Hardware 3/4" Wire Nails',5.06, 0)
 
 obj1.get_discount_amount()
