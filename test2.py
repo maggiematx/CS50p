@@ -4,9 +4,9 @@ def main():
 
 def get_student():
     student={}
-    student["name"]==input("name: ")
-    student["house"]==input("house: ")
-    return stduent
+    student["name"]=input("name: ")
+    student["house"]=input("house: ")
+    return student
 
 if __name__ == "__main__":
     main()
