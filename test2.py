@@ -11,6 +11,7 @@ class Product:
                 return discount
 
     def get_discount_price(self):
+                discount=self.get_discount_amount()
                 discount_price=self.price-discount
                 print("The discount price is ", discount_price)
 
