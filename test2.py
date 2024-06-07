@@ -6,11 +6,14 @@ class BankAccount:
                  self.balance=balance
 
 def main():
-obj1 = get_balance()
-print(f"The account balance for {obj1.name} is ${obj1.balance}")
+    obj1 = get_balance()
+    print(f"The account balance for {obj1.name} is ${obj1.balance}")
 
 def get_balance():
-BankAccount("Maggie", "12345", "500")
+        obj1.name="Maggie"
+        obj1.account_number="12345"
+        obj1.balance="500"
+        return BankAccount(name, account_number,balance)
 
 
 
