@@ -7,7 +7,7 @@ class BankAccount:
 
 def main():
     obj1 = get_balance()
-    print(f"The account balance for {obj1.name} is ${obj1.balance}")
+    print(f"The account balance for obj1.name is obj1.balance")
 
 def get_balance():
         obj1.name="Maggie"
