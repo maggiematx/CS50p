@@ -10,9 +10,9 @@ def main():
     print(f"The account balance for {obj1.name} is {obj1.balance}")
 
 def get_balance():
-        obj1.name="Maggie"
-        obj1.account_number="12345"
-        obj1.balance="500"
+        name="Maggie"
+        account_number="12345"
+        balance="500"
         return BankAccount(name, account_number,balance)
 
 
