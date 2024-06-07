@@ -15,5 +15,6 @@ def get_balance():
         balance="500"
         return BankAccount(name, account_number,balance)
 
-
+if __name__== "__main__":
+    main()
 
