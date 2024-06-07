@@ -5,8 +5,12 @@ class BankAccount:
                  self.account_number=account_number
                  self.balance=balance
 
-obj1 =  BankAccount("Maggie", "12345", "500")
-print("The account balance for f"{self.name} is $f{self.balance}")
+def main():
+obj1 = get_balance()
+print(f"The account balance for {obj1.name} is ${obj1.balance}")
+
+def get_balance():
+BankAccount("Maggie", "12345", "500")
 
 
 
