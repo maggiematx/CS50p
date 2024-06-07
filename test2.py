@@ -6,7 +6,7 @@ class BankAccount:
                  self.balance=balance
 
 obj1 =  BankAccount("Maggie", "12345", "500")
-print("The account balance for f"{self.name}" is $f"{self.balance}")
+print("The account balance for f"{self.name} is $f{self.balance}")
 
 
 
