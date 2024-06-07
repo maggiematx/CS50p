@@ -1,9 +1,9 @@
-class Product:
+class BankAccount:
 
-    def __init__(self,name,price,discount_percentage):
+    def __init__(self,name,account_number,balance):
                  self.name=name
-                 self.price=float(price)
-                 self.discount_percentage=discount_percentage/100
+                 self.account_number=account_number
+                 self.balance=blance
 
 
     def get_discount_price(self):
