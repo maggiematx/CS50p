@@ -1,17 +1,17 @@
 
-class BankAccount:
-    def __init__(self, name, account_number, balance=0):
-        self.name = name
-        self.account_number = account_number
-        self.balance = balance
+class Time:
+    def __init__(self, hours, minutes, seconds):
+        self.hours=hours
+        self.minutes=minutes
+        self.seconds=seconds
 
-    def display_balance(self):
-        print(f"Current Balance for {self.name}: ${self.balance:}")
-
-
-    obj1 = BankAccount("Maggie", 12345, 500)
+    def display_time(self):
+        print(f"Current time is ${self.seconds}")
 
 
-    obj1.display_balance()
+    obj1 = Time("Maggie", 12345, 500)
+
+
+    obj1.display_time()
 
 
