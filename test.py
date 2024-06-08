@@ -14,7 +14,8 @@ class Time:
 def main():
     obj1 = Time()
     current_datetime=datetime.now()
-    formatted_datetime = current_ime.strftime("%H:%M:%S")
+    formatted_datetime = current_time.strftime("%H:%M:%S")
+    Print("The current time is formatted_datetime")
     Print("The current time is display_time(formatted_datetime)")
 
 def Time():
