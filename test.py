@@ -15,7 +15,12 @@ class Time:
 
 def main():
     obj1 = Time()
-    Print("The current time is display_time()")
+    current_datetime=datetime.now()
+    formatted_datetime = current_ime.strftime("%H:%M:%S")
+    Print("The current time is display_time(formatted_datetime)")
+
+def time():
+    
 
 if __name__== "__main__":
     main()
