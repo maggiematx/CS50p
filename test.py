@@ -6,12 +6,15 @@ class Time:
         self.seconds=seconds
 
     def display_time(self):
-        print(f"Current time is ${self.seconds}")
+        print(f"The current time is ${self.seconds}")
+
+def main():
+    obj1 = Time()
+
+def convert_seconds():
+    
 
 
-    obj1 = Time("Maggie", 12345, 500)
-
-
-    obj1.display_time()
+obj1.display_time()
 
 
