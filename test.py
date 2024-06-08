@@ -13,8 +13,9 @@ class Time:
 
 def main():
     current_time=get_time()
+    total_seconds=display_time(current_time)
     print("The current time is: ", current_time)
-    print("The current time is: ", display_time(current_time))
+    print("The current time is: ", total_seconds)
 
 def get_time():
     current_datetime=datetime.now()
