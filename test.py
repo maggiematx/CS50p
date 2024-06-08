@@ -13,7 +13,7 @@ class Time:
 
 def main():
     current_time=get_time()
-    Print("The current time is current_time")
+    Print("The current time is: ", current_time)
     Print("The current time is display_time(current_time)")
 
 def get_time():
