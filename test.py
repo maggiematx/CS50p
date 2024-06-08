@@ -13,8 +13,8 @@ class Time:
 
 def main():
     Time=get_time()
-    Print("The current time is current_datetime")
-    Print("The current time is display_time(formatted_datetime)")
+    Print("The current time is current_time")
+    Print("The current time is display_time(current_time)")
 
 def get_time():
     current_datetime=datetime.now()
