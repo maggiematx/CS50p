@@ -13,7 +13,7 @@ class Time:
 
 def main():
     Time=get_time()
-    Print("The current time is formatted_datetime")
+    Print("The current time is current_datetime")
     Print("The current time is display_time(formatted_datetime)")
 
 def get_time():
@@ -23,7 +23,7 @@ def get_time():
     minutes=current_datetime.minutes
     seconds=current_datetime.seconds
 
-    current_time=get_time(hours,minutes,seoncds)
+    current_time=get_time(hours,minutes,seconds)
 
 
 if __name__== "__main__":
