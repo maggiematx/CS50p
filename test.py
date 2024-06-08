@@ -23,7 +23,7 @@ def get_time():
     minutes=current_datetime.minute
     seconds=current_datetime.second
 
-    return get_time(hours,minutes,seconds)
+    return Time(hours,minutes,seconds)
 
 
 if __name__== "__main__":
