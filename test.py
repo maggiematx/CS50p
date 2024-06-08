@@ -8,7 +8,9 @@ class Time:
         self.seconds=seconds
 
     def display_time(self):
-        time_delta=timedelta(hours, )
+        time_delta=timedelta(hours, minutes, second )
+        total_seconds=time_delta.total_seconds()
+        return total_seconds
 
 def main():
     obj1 = Time()
