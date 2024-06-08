@@ -12,9 +12,9 @@ class Time:
         return total_seconds
 
 def main():
-    current_time=get_time()
-    total_seconds=current_time.display_time()
-    print("The current time is: ", current_time)
+    time=get_time()
+    total_seconds=time.display_time()
+    print("The current time is: ", time.hours, ":", time.minutes, ":", time.seconds)
     print("The current time is: ", total_seconds)
 
 def get_time():
