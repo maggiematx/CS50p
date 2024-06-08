@@ -14,14 +14,14 @@ class Time:
 def main():
     current_time=get_time()
     Print("The current time is: ", current_time)
-    Print("The current time is display_time(current_time)")
+    Print("The current time is: ", display_time(current_time))
 
 def get_time():
     current_datetime=datetime.now()
 
     hours=current_datetime.hour
-    minutes=current_datetime.minutes
-    seconds=current_datetime.seconds
+    minutes=current_datetime.minute
+    seconds=current_datetime.second
 
     return get_time(hours,minutes,seconds)
 
