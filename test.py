@@ -1,4 +1,6 @@
 
+from datetime import datetime
+
 class Time:
     def __init__(self, hours, minutes, seconds):
         self.hours=hours
@@ -10,9 +12,12 @@ class Time:
 
 def main():
     obj1 = Time()
+    current_time=datetime.now()
+    formatted_time=current_time.strftime("%H:%M:%S")
+    Print("The current time is)
 
 def convert_seconds():
-    
+
 
 
 obj1.display_time()
