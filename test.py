@@ -9,21 +9,15 @@ class Time:
 
     def display_time(self):
         hours="5"
-    minutes="33"
-    seconds="45"
-        print(f"The current time is ${self.seconds}")
+        minutes="33"
+        seconds="45"
+        return Time(hours, minutes, seconds)
 
 def main():
     obj1 = Time()
-    current_time=datetime.now()
-    formatted_time=current_time.strftime("%H:%M:%S")
-    Print("The current time is)
+    Print("The current time is display_time())
 
-def convert_seconds():
-
-    return  Time()
-
-
-obj1.display_time()
+if __name__= "__main__":
+    main()
 
 
