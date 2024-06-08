@@ -12,17 +12,18 @@ class Time:
         return total_seconds
 
 def main():
-    obj1 = Time()
-    current_datetime=datetime.now()
-    formatted_datetime = current_time.strftime("%H:%M:%S")
+    Time=get_time()
     Print("The current time is formatted_datetime")
     Print("The current time is display_time(formatted_datetime)")
 
-def Time():
-    hours=formatted_datetime[H]
-    minutes=formatted_datetime[M]
-    seconds=formatted_datetime[S]
-    return Time(hours, minutes, seconds)
+def get_time():
+    current_datetime=datetime.now()
+
+    hours=current_datetime.hour
+    minutes=current_datetime.minutes
+    seconds=current_datetime.seconds
+
+    current_time=get_time(hours,minutes,seoncds)
 
 
 if __name__== "__main__":
