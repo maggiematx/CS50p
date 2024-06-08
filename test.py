@@ -15,9 +15,9 @@ class Time:
 
 def main():
     obj1 = Time()
-    Print("The current time is display_time())
+    Print("The current time is display_time()")
 
-if __name__= "__main__":
+if __name__== "__main__":
     main()
 
 
