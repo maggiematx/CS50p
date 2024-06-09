@@ -11,12 +11,10 @@ class Employee:
 
 
 def main():
-    obj1 = get_time()
-    total_seconds=obj1.display_seconds()
-    print("The current time is: ", obj1.hours, ":", obj1.minutes, ":", obj1.seconds)
-    print("The current time is: ", total_seconds)
+    obj1 = get_status()
+    return
 
-def get_time():
+def get_status():
     timenow=datetime.now()
     hours=timenow.hour
     minutes=timenow.minute
