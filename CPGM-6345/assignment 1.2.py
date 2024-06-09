@@ -7,10 +7,15 @@ class Employee:
 
 def main():
     obj1 = get_status()
-    return
+        if obj.status == "complete":
+          return salary * (1+0.1)
 
 def get_status():
-    status
+    name=input("Name: ")
+    Salary=input("Salary: ")
+    status=input("Status: ")
+
+
 
     return Time(hours,minutes,seconds)
 
