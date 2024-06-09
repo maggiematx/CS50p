@@ -17,12 +17,11 @@ def main():
 
 def get_status():
     name=input("Name: ")
+    salary=int(input("Salary: "))
     status=input("Status: ")
 
-def get_salary():
-    salary=int(input("Salary: "))
 
-    return Time(hours,minutes,seconds)
+    return Employee(name,salary,status)
 
 if __name__== "__main__":
     main()
