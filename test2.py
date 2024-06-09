@@ -1,4 +1,6 @@
-class BankAccount:
+from datetime import datetime
+
+class Time:
 
     def __init__(self,name,account_number,balance):
                  self.name=name
