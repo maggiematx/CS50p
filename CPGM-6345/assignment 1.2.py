@@ -9,7 +9,6 @@ class Employee:
          if self.project_status=="complete":
               self.salary *= 1.10
          else:
-              print(f"{self.name} is fired!")
               self.salary=0
 
 def main():
