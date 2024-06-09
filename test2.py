@@ -23,7 +23,7 @@ def get_time():
     minutes=timenow.minute
     seconds=timenow.second
 
-    return obj1(hours,minutes,seconds)
+    return Time(hours,minutes,seconds)
 
 if __name__== "__main__":
     main()
