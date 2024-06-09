@@ -1,6 +1,6 @@
-class Time:
+class Employee:
 
-    def __init__(self,hours,minutes,seconds):
+    def __init__(self,name,salary,project_status):
                  self.hours=hours
                  self.minutes=minutes
                  self.seconds=seconds
