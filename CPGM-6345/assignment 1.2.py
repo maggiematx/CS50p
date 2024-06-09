@@ -1,18 +1,19 @@
 class Employee:
 
-    def __init__(self,name,salary,project_status):
+    def __init__(self,name,salary=0,project_status):
                  self.name=name
                  self.salary=salary
                  self.project_status=project_status
 
+    def check_status(self):
+         if self.project_status=="complete":
+              self.salary *= 1.10
+         else:
+              print(f"{self.name} is fired!")
 
 def main():
     obj1 = get_status()
-        if obj.status == "complete":
-            return salary * (1+0.1)
-
-        else:
-            print(f"{obj1.name} is fired!")
+    obj1
 
 
 def get_status():
