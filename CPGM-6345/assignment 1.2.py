@@ -14,7 +14,7 @@ class Employee:
 
 def main():
     employee= get_status()
-    obj1.check_status()
+    employee.check_status()
 
     if obj1.salary>0:
         print(f"{employee.name}'s new salary is {employee.salary:.2f}")
