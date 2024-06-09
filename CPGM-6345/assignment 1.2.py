@@ -13,8 +13,10 @@ class Employee:
 
 def main():
     obj1 = get_status()
-    obj1
+    obj1.check_status()
 
+    if obj1.salary>0:
+        print("{obj1.name}'s new salary is {obj1.salary}")
 
 def get_status():
     name=input("Name: ")
