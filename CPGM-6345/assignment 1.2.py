@@ -17,6 +17,8 @@ def main():
 
     if obj1.salary>0:
         print("{obj1.name}'s new salary is {obj1.salary}")
+    else:
+         print(f"{obj1.name} is fired!")
 
 def get_status():
     name=input("Name: ")
