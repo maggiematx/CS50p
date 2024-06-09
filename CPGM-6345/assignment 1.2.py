@@ -10,7 +10,7 @@ def main():
     return
 
 def get_status():
-    if
+    status
 
     return Time(hours,minutes,seconds)
 
