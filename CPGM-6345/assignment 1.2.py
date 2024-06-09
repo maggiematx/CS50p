@@ -13,13 +13,13 @@ class Employee:
               self.saraly=0
 
 def main():
-    obj1 = get_status()
+    employee= get_status()
     obj1.check_status()
 
     if obj1.salary>0:
-        print(f"{obj1.name}'s new salary is {obj1.salary:.2f}")
+        print(f"{employee.name}'s new salary is {employee.salary:.2f}")
     else:
-         print(f"{obj1.name} is fired!")
+         print(f"{employee.name} is fired!")
 
 def get_status():
     name=input("Name: ")
