@@ -14,7 +14,8 @@ class Time:
 
 def main():
     obj1 = get_time()
-    print("The current time is: ", obj1.hour, ":", obj1.minute, ":", obj1.seconds)
+    total_seconds=obj1.display_seconds()
+    print("The current time is: ", obj1.hours, ":", obj1.minutes, ":", obj1.seconds)
     print("The current time is: ", total_seconds)
 
 def get_time():
