@@ -1,6 +1,6 @@
 class Employee:
 
-    def __init__(self,name,salary=0,project_status):
+    def __init__(self,name,salary,project_status):
                  self.name=name
                  self.salary=salary
                  self.project_status=project_status
