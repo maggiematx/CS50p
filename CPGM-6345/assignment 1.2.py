@@ -20,7 +20,6 @@ def get_status():
     salary=int(input("Salary: "))
     status=input("Status: ")
 
-
     return Employee(name,salary,status)
 
 if __name__== "__main__":
