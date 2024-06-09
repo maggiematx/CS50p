@@ -10,6 +10,7 @@ class Employee:
               self.salary *= 1.10
          else:
               print(f"{self.name} is fired!")
+              self.saraly=0
 
 def main():
     obj1 = get_status()
