@@ -11,6 +11,9 @@ class Employee:
               elif self.project_status=="incomplete":
                 print(f"{self.name} is fired!")
                 self.saraly=0
+              else:
+                pass
+
 
 
 def main():
