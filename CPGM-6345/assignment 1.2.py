@@ -5,8 +5,6 @@ class Employee:
                  self.salary=salary
                  self.project_status=status
 
-    def __str__(self):
-        reutrn f"
 
 def main():
     obj1 = get_status()
