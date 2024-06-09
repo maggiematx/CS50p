@@ -27,6 +27,9 @@ def get_status():
     salary=int(input("Salary: "))
     status=input("Status: ").lower().strip()
 
+    while status not in ["complete", "incomplete"]:
+        
+
     return Employee(name,salary,status)
 
 if __name__== "__main__":
