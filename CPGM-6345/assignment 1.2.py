@@ -1,5 +1,3 @@
-from datetime import datetime
-
 class Time:
 
     def __init__(self,hours,minutes,seconds):
