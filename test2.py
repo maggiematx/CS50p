@@ -7,8 +7,8 @@ class Time:
                  self.minutes=minutes
                  self.seconds=seconds
 
-    def diplay_seconds(self):
-        total_seconds=hours*3600+minutes*60+seconds
+    def display_seconds(self):
+        total_seconds=self.hours*3600+self.minutes*60+self.seconds
         return total_seconds
 
 
