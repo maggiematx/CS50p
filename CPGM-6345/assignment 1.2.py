@@ -8,9 +8,6 @@ class Employee:
     def check_status(self):
          if self.project_status=="complete":
               self.salary *= 1.10
-         elif self.project_status=="incomplete":
-              print(f"{self.name} is fired!")
-              self.saraly=0
          else:
             pass
 
@@ -28,7 +25,7 @@ def main():
 def get_status():
     name=input("Name: ")
     salary=int(input("Salary: "))
-    status=input("Status: ")
+    status=input("Status: ").lower().strip()
 
     return Employee(name,salary,status)
 
