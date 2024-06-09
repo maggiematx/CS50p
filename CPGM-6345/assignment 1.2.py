@@ -1,24 +1,16 @@
 class Employee:
 
     def __init__(self,name,salary,project_status):
-                 self.hours=hours
-                 self.minutes=minutes
-                 self.seconds=seconds
-
-    def display_seconds(self):
-        total_seconds=self.hours*3600+self.minutes*60+self.seconds
-        return total_seconds
-
+                 self.name=name
+                 self.salary=salary
+                 self.project_status=status
 
 def main():
     obj1 = get_status()
     return
 
 def get_status():
-    timenow=datetime.now()
-    hours=timenow.hour
-    minutes=timenow.minute
-    seconds=timenow.second
+    if
 
     return Time(hours,minutes,seconds)
 
