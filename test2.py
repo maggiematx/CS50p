@@ -6,6 +6,7 @@ class Time:
                  self.hours=hours
                  self.minutes=minutes
                  self.seconds=seconds
+                 
     def diplay_seconds(self):
         total_seconds=hours*3600+minutes*60+seconds
             return total_seconds
