@@ -5,17 +5,25 @@ class Employee:
                  self.salary=salary
                  self.project_status=status
 
+    def __str__(self):
+        reutrn f"
+
 def main():
     obj1 = get_status()
         if obj.status == "complete":
-          return salary * (1+0.1)
+            return salary * (1+0.1)
+            print (f"{obj1.name} got a 10% pay rise. {obj1.name}'s new salary is ${obj1.salary})
+
+        else:
+            print(f"{obj1.name} is fired!")
+
 
 def get_status():
     name=input("Name: ")
-    Salary=input("Salary: ")
     status=input("Status: ")
 
-
+def get_salary():
+    salary=input("Salary: ")
 
     return Time(hours,minutes,seconds)
 
