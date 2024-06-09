@@ -3,7 +3,7 @@ class Employee:
     def __init__(self,name,salary,project_status):
                  self.name=name
                  self.salary=salary
-                 self.project_status=status
+                 self.project_status=project_status
 
 
 def main():
