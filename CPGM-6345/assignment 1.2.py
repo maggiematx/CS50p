@@ -27,7 +27,7 @@ def get_status():
     status=input("Status: ").lower().strip()
 
     while status not in ["complete", "incomplete"]:
-         pass
+         status=input("Status: ").lower().strip()
 
 
     return Employee(name,salary,status)
