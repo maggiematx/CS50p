@@ -31,7 +31,7 @@ class Student:
 
 def main():
     student = get_student()
-    student.house=number 4
+    student.house="number 4"
     print(student)
 
 
