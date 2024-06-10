@@ -9,7 +9,8 @@ class Time:
     def convert(self):
         second1=3600*self.hours
         second2=self.minutes*60
-        secondsfial=second1+second2+self.seconds
+        secondsfinal=second1+second2+self.seconds
+        print(secondsfinal)
 
 t=Time(10,10,00)
 t.print_time()
