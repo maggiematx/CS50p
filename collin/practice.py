@@ -1,17 +1,12 @@
+class Employee:
 
-class Time:
-    def __init__(self, hours, minutes, seconds):
-        self.hours=hours
-        self.minutes=minutes
-        self.seconds=seconds
-    def print_time(self):
-        print(self.hours,self.minutes,self.seconds)
-    def convert(self):
-        second1=3600*self.hours
-        second2=self.minutes*60
-        secondsfinal=second1+second2+self.seconds
-        print(secondsfinal)
+    def __init__(self,name,salary,project_status):
+                 self.name=name
+                 self.salary=salary
+                 self.project_status=project_status
 
-t=Time(10,10,00)
+
+obj1=Employee(maggie,4000, complete)
+print
 t.print_time()
 t.convert()
