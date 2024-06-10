@@ -7,6 +7,8 @@ class Employee:
 
 
 obj1=Employee(maggie,4000, complete)
-print
-t.print_time()
+print(obj.name)
+print(obj1.salary)
+obj1.doproject_Status()
+
 t.convert()
