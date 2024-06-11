@@ -6,11 +6,11 @@ class Time:
 
         def display_time(self):
                 total_seconds=self.hours*3600+self.minutes*60+self.seconds
-                print("Time in seconds is: ", total_seconds)
+                print("Time in seconds is:", total_seconds)
 
 
 obj1=Time(5,3,23)
-print("Time is: ",Time())
+
 obj1.display_time()
 
 
