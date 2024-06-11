@@ -1,8 +1,8 @@
 class Time:
         def __init__(self,hours, minutes, seconds):
-                 self.name=hours
-                 self.salary=minutes
-                 self.project_status=seconds
+                 self.hours=hours
+                 self.minutes=minutes
+                 self.seconds=seconds
 
         def display_time():
                 total_seconds=hours*3600+minutes*60+seconds
