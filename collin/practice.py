@@ -1,25 +1,14 @@
 class Time:
-
-    def __init__(self,hours, minutes, seconds):
+        def __init__(self,hours, minutes, seconds):
                  self.name=hours
                  self.salary=minutes
-                 self.project_status=second
+                 self.project_status=seconds
 
-class
-        def __init__():
-                .__init__(self, name, grade)
+        def display_time():
+                total_seconds=hours*3600+minutes*60+seconds
 
-        def specific_descrition(self):
-                print()
+obj1=Time(5,3,23)
+print 
+obj1.display_time()
 
-class
 
-obj1=Employee(maggie,4000, complete)
-obj1.
-obj1.
-
-obj2=()
-obj2.
-obj2.
-
-t.convert()
