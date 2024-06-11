@@ -4,13 +4,16 @@ class Time:
                  self.minutes=minutes
                  self.seconds=seconds
 
-        def display_time(self):
+        def print_time(self):
+                print("Time is: ", self.hours, ":", self.minutes,":",self.seconds)
+
+        def display_seconds(self):
                 total_seconds=self.hours*3600+self.minutes*60+self.seconds
                 print("Time in seconds is:", total_seconds)
 
 
 obj1=Time(5,3,23)
-
-obj1.display_time()
+obj1.print_time()
+obj1.display_seconds()
 
 
