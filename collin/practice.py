@@ -12,7 +12,3 @@ print(obj1.salary)
 obj1.doproject_Status()
 
 t.convert()
-peter,
-
-robert
-the 
