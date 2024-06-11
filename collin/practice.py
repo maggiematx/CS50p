@@ -8,6 +8,8 @@ class Time:
                 total_seconds=hours*3600+minutes*60+seconds
                 print("Time in seconds is: ", total_seconds)
 
+obj1=Time(hours,minutes,seconds)
+
 obj1=Time(5,3,23)
 
 obj1.display_time()
