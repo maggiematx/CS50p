@@ -1,4 +1,4 @@
-class Employee:
+class Bird:
 
     def __init__(self,name,salary,project_status):
                  self.name=name
