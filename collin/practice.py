@@ -1,8 +1,8 @@
 class Employee:
-        def __init__(self,hours, minutes, seconds):
-                 self.hours=hours
-                 self.minutes=minutes
-                 self.seconds=seconds
+        def __init__(self,name,salary,project_satus):
+                 self.name=name
+                 self.salary=salary
+                 self.project_status=project_status
 
         def print_time(self):
                 print("Time is: ", self.hours, ":", self.minutes,":",self.seconds)
