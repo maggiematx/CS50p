@@ -1,9 +1,9 @@
-class Bird:
+class Time:
 
-    def __init__(self,name,salary,project_status):
-                 self.name=name
-                 self.salary=salary
-                 self.project_status=project_status
+    def __init__(self,hours, minutes, seconds):
+                 self.name=hours
+                 self.salary=minutes
+                 self.project_status=second
 
 class
         def __init__():
