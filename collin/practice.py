@@ -9,7 +9,7 @@ class Time:
                 print("Time in seconds is: ", total_seconds)
 
 obj1=Time(5,3,23)
-print
+print )Time()
 obj1.display_time()
 
 
