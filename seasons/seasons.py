@@ -20,7 +20,7 @@ def main():
     total_minutes=age.display_minutes()
     total_minutes_in_words=num2words(total_minutes).replace("-"," ")
 
-    print("You are:", total_minutes, "mimutes old.")
+    print("You are", total_minutes_in_words, "mimutes old.")
 
 
 def get_birthday():
