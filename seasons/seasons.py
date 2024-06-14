@@ -24,12 +24,13 @@ def main():
 
 
 def get_birthday():
-    birthday_str=input("Date of Birth: ")
-    try:
-        birthday=datetime.strptime(birthday_str, "%Y-%m-%d").date()
-        return birthday
-    except ValueError:
-        print ("Invalid date")
+    while True:
+        birthday_str=input("Date of Birth: ")
+        try:
+            birthday=datetime.strptime(birthday_str, "%Y-%m-%d").date()
+            return birthday
+        except ValueError:
+            print ("Invalid date")
 
 def calculate_age_in_days(birth_date):
     datetoday=date.today()
