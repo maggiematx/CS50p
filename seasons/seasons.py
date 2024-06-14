@@ -15,7 +15,7 @@ class Age:
 def main():
     birth_date=get_birthday()
     age_in_days=calculate_age_in_days(birth_date)
-    age=Age(age_in_days, 0, 0)
+    age=Age(age_in_days)
 
     total_minutes=age.display_minutes()
     total_minutes_in_words=num2words(total_minutes).replace("-"," ")
