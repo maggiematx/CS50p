@@ -18,7 +18,7 @@ def main():
     age=Age(age_in_days)
 
     total_minutes=age.display_minutes()
-    total_minutes_in_words=num2words(total_minutes).replace("-"," ").replace("and", "")
+    total_minutes_in_words=num2words(total_minutes).replace("and", "")
 
     print(total_minutes_in_words, "minutes")
 
