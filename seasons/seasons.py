@@ -3,14 +3,12 @@ from num2words import num2words
 
 
 class Age:
-    def __init__(self,days, hours, minutes):
+    def __init__(self,days):
         self.days=days
-        self.hours=hours
-        self.minutes=minutes
 
 
     def display_minutes(self):
-        total_minutes=self.days*24*60+self.hours*60+self.minutes
+        total_minutes=self.days*24*60
         return total_minutes
 
 
