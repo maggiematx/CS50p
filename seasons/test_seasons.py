@@ -8,15 +8,11 @@ def test_get_birthday():
 
 
 def test_calculate_age_in_timedelta():
-    assert calculate_age_in_timedelta(50) == "50%"
-    assert calculate_age_in_timedelta(1)=="E"
-    assert calculate_age_in_timedelta(99)=="F"
+    assert calculate_age_in_timedelta() == "50%"
+    assert calculate_age_in_timedelta()=="E"
+    assert calculate_age_in_timedelta()=="F"
 
 
-def test_value_error():
-    with pytest.raises(ValueError):
-        convert("x/y")
+def convert_minutes_to_words():
+    assert convert_minutes_to_words("2861280")==
 
-def test_zero_divison_error():
-    with pytest.raises(ZeroDivisionError):
-        convert("5/0")
