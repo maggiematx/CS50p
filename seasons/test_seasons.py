@@ -4,13 +4,13 @@ import pytest
 def test_get_birthday():
     assert get_birthday("2023-6-15") == Five hundred twenty-seven thousand, forty minutes
     assert get_birthday("2022-06-15") == one million fifty-two thousand, six hundred forty minutes
-   
 
 
-def test_gauge():
-    assert gauge(50) == "50%"
-    assert gauge(1)=="E"
-    assert gauge(99)=="F"
+
+def test_calculate_age_in_timedelta():
+    assert calculate_age_in_timedelta(50) == "50%"
+    assert calculate_age_in_timedelta(1)=="E"
+    assert calculate_age_in_timedelta(99)=="F"
 
 
 def test_value_error():
