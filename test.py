@@ -40,10 +40,14 @@ def convert_minutes_to_words(total_minutes):
     total_minutes_in_words = p.number_to_words(total_minutes)
     # Remove "and"
     total_minutes_in_words = total_minutes_in_words.replace(" and", "")
-    # Format with a comma before "hundred thousand" if applicable
-    if "thousand" in total_minutes_in_words:
-        total_minutes_in_words = total_minutes_in_words.replace("thousand ", "thousand, ")
+    # Split the number into parts: thousands, hundreds, and units
+    parts = total_minutes_in_words.split()
+    if len(parts) > 3:
+        # Insert comma after "thousand" for correct formatting
+        parts.insert(-2, ",")
+    total_minutes_in_words = ' '.join(parts)
     return total_minutes_in_words
 
 if __name__ == "__main__":
     main()
+
