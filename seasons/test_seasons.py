@@ -4,9 +4,9 @@ import pytest
 
 def test_get_birthday():
     assert get_birthday("2023-06-15") == "Five hundred twenty-seven thousand, forty minutes"
-    assert get_birthday("2022-06-15") == "One million fifty-two thousand, six hundred forty minutes"
-    assert get_birthday("January 1, 1987") == None  # Assuming get_birthday returns None on invalid date
-
+    assert get_birthday("2022-06-15") == "One million, fifty-two thousand, six hundred forty minutes"
+    assert get_birthday("January 1, 1987") == "Invalid date"
+    
 def test_calculate_age_in_timedelta():
     birth_date = datetime(2000, 1, 1).date()
     expected_age = calculate_age_in_timedelta(birth_date)
