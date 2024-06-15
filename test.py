@@ -1,5 +1,6 @@
-from datetime import datetime, timedelta
+from datetime import datetime
 import inflect
+import sys
 
 class Age:
     def __init__(self, timedelta):
@@ -27,6 +28,7 @@ def get_birthday():
             return birthday
         except ValueError:
             print("Invalid date. Please use the format YYYY-MM-DD.")
+            sys.exit(1)
 
 def calculate_age_in_timedelta(birth_date):
     today = datetime.now().date()
@@ -35,12 +37,13 @@ def calculate_age_in_timedelta(birth_date):
 
 def convert_minutes_to_words(total_minutes):
     p = inflect.engine()
-    total_minutes_in_words = p.number_to_words(total_minutes).replace(",", "")  # Remove commas
+    total_minutes_in_words = p.number_to_words(total_minutes, group=1)
     if total_minutes >= 1000:
         total_minutes_in_words = total_minutes_in_words.replace(" ", ", ")
     return total_minutes_in_words
 
 if __name__ == "__main__":
     main()
+
 
 
