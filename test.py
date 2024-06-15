@@ -1,67 +1,38 @@
-from datetime import date
-import inflect
-import sys
-import re
+from datetime import date, timedelta
+import sys, inflect
 
+# // Initialize the inflect engine
+p = inflect.engine()
+
+
+# // Main function
 def main():
-    inpt=input('Date of Birth: ')
-    print(get_min(inpt))
+    # // Get the date of birth
+    try:
+        year, month, day = input("Date of Birth: ").split("-")
+        year, month, day = int(year), int(month), int(day)
+    except ValueError:
+        sys.exit("Invalid Date")
+
+    # // Convert the date to minutes
+    print(convert_to_minutes(year, month, day))
 
 
-def get_min(inpt):
+# // Function to convert the date to minutes
+def convert_to_minutes(year: int, month: int, day: int):
+    # // Get the current date
+    today: date = date.today()
 
-    # gets dates from input using regex
-    if search := re.search(r'^(\d{4})-(\d{2})-(\d{2})$',inpt):
-        inpt=list(search.groups())
-    else:
-        sys.exit('Invalid date')
+    # // Calculate the difference between the two dates
+    diff: timedelta = today - date(year, month, day)
 
-    # converts str into int and checks valid date
-    inpt_bday = convert_and_check(inpt)
+    # // Convert the difference to minutes
+    minutes: int = diff.days * 24 * 60
 
-    # today's date
-    today = date.today()
-
-    # bday
-    bday = date(inpt_bday[0], inpt_bday[1], inpt_bday[2])
-
-    # computes no of days
-    diff = bday - today
-    no_of_days = -int(diff.days)
-
-    # computes days into minutes
-    minutes = no_of_days * 24 * 60
-
-    # converts into words
-    inf = inflect.engine()
-    min_words = inf.number_to_words(minutes)
-
-    # remove 'and' and capitalize
-
-    min_words = min_words.replace(' and','').capitalize()
-
-    # return
-    return min_words + ' minutes'
+    # // Print the minutes
+    return f"{p.number_to_words(minutes)} minutes".capitalize()
 
 
-def convert_and_check(day):
-    # convert str to int
-    day = list(map(int, day))
-
-    # check valid date and month
-    if day[1] < 0 or day[1] > 12:
-        sys.exit('Invalid date')
-
-    elif day[2] < 0 or day[2] > 31:
-        sys.exit('Invalid date')
-
-    return day
-
-
-
+# // Run the main function
 if __name__ == "__main__":
     main()
-
-
-
-
