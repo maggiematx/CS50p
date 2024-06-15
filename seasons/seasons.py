@@ -7,12 +7,11 @@ class Age:
 
 
     def display_minutes(self):
-        total_seconds = self.timedelta.total_seconds()
-        total_minutes = total_seconds // 60  # Convert seconds to minutes
-        return int(total_minutes)
+        total_minutes = self.timedelta.days*24*60
+        return total_minutes
 
 def main():
-    birth_date=datetime.strptime("%Y-%m-%d").date()
+    birth_date=get_birthday()
     age_in_timedelta=calculate_age_in_timedelta(birth_date)
     age=Age(age_in_timedelta)
 
