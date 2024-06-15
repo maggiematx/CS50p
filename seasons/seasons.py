@@ -22,13 +22,13 @@ def main():
 
 
 def get_birthday():
-    while True:
         birthday_str=input("Date of Birth: ")
         try:
             birthday=datetime.strptime(birthday_str, "%Y-%m-%d").date()
             return birthday
         except ValueError:
             print ("Invalid date")
+            
 
 def calculate_age_in_timedelta(birth_date):
     datetoday=datetime.now().date()
