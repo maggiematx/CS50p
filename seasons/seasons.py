@@ -1,5 +1,6 @@
 from datetime import datetime, date, timedelta
 import inflect
+imnport sys
 
 class Age:
     def __init__(self,timedelta):
@@ -28,7 +29,8 @@ def get_birthday():
             return birthday
         except ValueError:
             print ("Invalid date")
-            
+            sys.exit(1)
+
 
 def calculate_age_in_timedelta(birth_date):
     datetoday=datetime.now().date()
