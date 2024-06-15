@@ -7,8 +7,8 @@ class Age:
         self.timedelta = timedelta
 
     def display_minutes(self):
-        total_minutes = self.timedelta.total_seconds() / 60
-        return int(total_minutes)
+        total_minutes = self.timedelta.total_seconds() // 60
+        return total_minutes
 
 def main():
     birth_date = get_birthday()
@@ -37,15 +37,8 @@ def calculate_age_in_timedelta(birth_date):
 
 def convert_minutes_to_words(total_minutes):
     p = inflect.engine()
-    total_minutes_in_words = p.number_to_words(total_minutes)
-    # Remove "and"
-    total_minutes_in_words = total_minutes_in_words.replace(" and", "")
-    # Split the number into parts: thousands, hundreds, and units
-    parts = total_minutes_in_words.split()
-    if len(parts) > 3:
-        # Insert comma after "thousand" for correct formatting
-        parts.insert(-2, ",")
-    total_minutes_in_words = ' '.join(parts)
+    total_minutes_in_words = p.number_to_words(total_minutes, group=1)
+    total_minutes_in_words = total_minutes_in_words.replace(",", "")  # Remove commas
     return total_minutes_in_words
 
 if __name__ == "__main__":
