@@ -43,7 +43,7 @@ def convert_minutes_to_words(total_minutes):
     total_minutes_in_words = total_minutes_in_words.replace(" and", "")
 
     if "thousand" in total_minutes_in_words:
-        total_minutes_in_words = total_minutes_in_words.replace("thousand ", "thousand, ")
+        total_minutes_in_words = total_minutes_in_words.replace("thousand ", "thousand, ", 1)
     return total_minutes_in_words
 
 if __name__ == "__main__":
