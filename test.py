@@ -38,7 +38,14 @@ def calculate_age_in_timedelta(birth_date):
 def convert_minutes_to_words(total_minutes):
     p = inflect.engine()
     total_minutes_in_words = p.number_to_words(total_minutes)
-    total_minutes_in_words = total_minutes_in_words.replace(",", "").replace(" and", "")
+    # Remove "and"
+    total_minutes_in_words = total_minutes_in_words.replace(" and", "")
+    # Insert comma at the correct position if the number is large enough
+    parts = total_minutes_in_words.split()
+    if len(parts) > 3:  # assuming "five hundred" as the smallest chunk to get a comma
+        comma_index = len(parts) - 3
+        parts.insert(comma_index, ",")
+    total_minutes_in_words = ' '.join(parts)
     return total_minutes_in_words
 
 if __name__ == "__main__":
