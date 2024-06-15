@@ -22,28 +22,8 @@ def main():
 
 def get_birthday():
     while True:
-        birthday_str = input("Date of Birth (YYYY-MM-DD): ")
-        try:
-            birthday = datetime.strptime(birthday_str, "%Y-%m-%d").date()
-            return birthday
-        except ValueError:
-            print("Invalid date. Please use the format YYYY-MM-DD.")
-            sys.exit(1)
+        birthday_str = input("
 
-def calculate_age_in_timedelta(birth_date):
-    today = datetime.now().date()
-    age_in_timedelta = today - birth_date
-    return age_in_timedelta
-
-def convert_minutes_to_words(total_minutes):
-    p = inflect.engine()
-    total_minutes_in_words = p.number_to_words(total_minutes, group=1)
-    if total_minutes >= 1000:
-        total_minutes_in_words = total_minutes_in_words.replace(" ", ", ")
-    return total_minutes_in_words
-
-if __name__ == "__main__":
-    main()
 
 
 
