@@ -44,6 +44,8 @@ def convert_minutes_to_words(total_minutes):
 
     if "thousand" in total_minutes_in_words:
         total_minutes_in_words = total_minutes_in_words.replace("thousand ", "thousand, ", 1)
+
+    total_minutes_in_words = total_minutes_in_words.capitalize()
     return total_minutes_in_words
 
 if __name__ == "__main__":
