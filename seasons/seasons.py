@@ -41,6 +41,9 @@ def convert_minutes_to_words(total_minutes):
     p = inflect.engine()
     total_minutes_in_words = p.number_to_words(total_minutes)
     total_minutes_in_words = total_minutes_in_words.replace(" and", "")
+
+    if "thousand" in total_minutes_in_words:
+        total_minutes_in_words = total_minutes_in_words.replace("thousand ", "thousand, ")
     return total_minutes_in_words
 
 if __name__ == "__main__":
