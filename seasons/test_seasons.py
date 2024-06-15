@@ -3,8 +3,8 @@ import pytest
 
 def test_get_birthday():
     assert get_birthday("2023-6-15") == Five hundred twenty-seven thousand, forty minutes
-    assert get_birthday("2022-06-15") == one million fifty-two thousand, six hundred forty minutes
-
+    assert get_birthday("2022-06-15") == One million fifty-two thousand, six hundred forty minutes
+    assert get_birthday("January 1, 1987") == Invalid date
 
 
 def test_calculate_age_in_timedelta():
