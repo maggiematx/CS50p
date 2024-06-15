@@ -2,8 +2,8 @@ from seasons import get_birthday, calculate_age_in_timedelta,convert_minutes_to_
 import pytest
 
 def test_get_birthday():
-    assert convert("1/2") == 50
-    assert convert("0/1") == 0
+    assert get_birthday("2023-6-15") == Five hundred twenty-seven thousand, forty minutes
+    assert get_birthday("2022-06-15") == 
     assert convert("6/6") == 100
 
 
