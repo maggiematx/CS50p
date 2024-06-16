@@ -1,38 +1,20 @@
-from datetime import date, timedelta
-import sys, inflect
+from datetime import date
+import inflect
+import re
 
-# // Initialize the inflect engine
 p = inflect.engine()
 
-
-# // Main function
 def main():
-    # // Get the date of birth
-    try:
-        year, month, day = input("Date of Birth: ").split("-")
-        year, month, day = int(year), int(month), int(day)
-    except ValueError:
-        sys.exit("Invalid Date")
+    days_between = date.today() - check_date()
+    print (f"{p.number_to_words(days_between.days *24 * 60)}, minutes")
 
-    # // Convert the date to minutes
-    print(convert_to_minutes(year, month, day))
+def check_date():
+    while True:
+        birth_date = input("Enter birthdate: ").strip()
+        if re.search(r"(\d{4})-([0-1]\d)-([0-3]\d)$", birth_date):
+            return date.fromisoformat(birth_date)
+        else:
+            print("Invalid Date")
 
-
-# // Function to convert the date to minutes
-def convert_to_minutes(year: int, month: int, day: int):
-    # // Get the current date
-    today: date = date.today()
-
-    # // Calculate the difference between the two dates
-    diff: timedelta = today - date(year, month, day)
-
-    # // Convert the difference to minutes
-    minutes: int = diff.days * 24 * 60
-
-    # // Print the minutes
-    return f"{p.number_to_words(minutes)} minutes".capitalize()
-
-
-# // Run the main function
 if __name__ == "__main__":
     main()
