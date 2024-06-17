@@ -1,5 +1,7 @@
-with open("names.txt", "r") as file:
-    lines = file.readlines()
+names = []
 
-for line in lines:
-    print("hello,", line)
+for _ in range(3):
+    names.append(input("What's your name?" ))
+
+for name in sorted(names):
+    print(f"hello, {name}")
