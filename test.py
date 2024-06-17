@@ -1,7 +1,9 @@
-names = []
+students = []
 
-for _ in range(3):
-    names.append(input("What's your name?" ))
+with open("students.csv") as file:
+    for line in file:
+        name, house = line.rstrip().split(",")
+        students.append({"name": name, "house": house})
 
-for name in sorted(names):
-    print(f"hello, {name}")
+for student in sorted(students, key=lambda student: student["house"]):
+    print(f"{student['name']} is in {student['house']}")
