@@ -11,4 +11,4 @@ obj = Sub()
 
 print(obj.supVar)
 
-Emma, ABC SCHOOL
+
