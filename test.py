@@ -1,5 +1,6 @@
 class Super:
-    supVar=1
+    def__init__(self):
+    self.supVar=1
 class Sub(Super):
     subVar=2
 
