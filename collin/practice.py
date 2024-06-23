@@ -15,5 +15,7 @@ obj1=Employee("Maggie", "$4000", "complete")
 obj2=Employee("kevin", "$3000", "incomplete")
 obj1.final_status()
 obj2.final_status()
+# print(obj1.__dict__, obj1)
+
 
 
