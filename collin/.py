@@ -1,7 +1,11 @@
 class Super:
-    supVar = 1
+    def __init__(self,supVar):
+        self.supVar = supVar
+
 class Sub(Super):
-    subVar = 2
-obj = Sub()
-print(obj.subVar)
+    def __init__(self,supVar,A):
+        super().__init__(supVar)
+        self.A = A
+obj = Sub(2,5)
+print(obj.A)
 print(obj.supVar)
