@@ -21,6 +21,8 @@
 # print(p._Person__name)  # Corrected typo in the print statement
 
 class A:
-    def
+    def __ init__(self, a=1):
+        self.__var =a
+        
 
 p(A)=5
