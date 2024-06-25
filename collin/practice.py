@@ -7,3 +7,10 @@ class Person:
 
     def get_name(self):
         return self.__name
+
+    def get_age(self):
+        return self.__age
+
+p=Person("John", 30)
+
+priont(p._Person__name)
