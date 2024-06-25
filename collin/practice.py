@@ -25,4 +25,4 @@ class A:
         self.__var =a
 
 
-p(A)=5
+p(A)
