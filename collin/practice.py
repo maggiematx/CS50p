@@ -22,7 +22,8 @@
 
 class A:
     def __init__(self, a=1):
-        self.__var =a
+        self.__a=a
 
+p(A)=5
 
-p(A)
+print(a)
