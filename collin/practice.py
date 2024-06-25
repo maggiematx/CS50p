@@ -1,21 +1,26 @@
-class Person:
-    def __init__(self, name, age):  # Fixed typo in method name
-        self.__name = name
-        self.__age = age
+# class Person:
+#     def __init__(self, name, age):  # Fixed typo in method name
+#         self.__name = name
+#         self.__age = age
 
-    def get_name(self):  # Corrected method definition and indentation
-        return self.__name
+#     def get_name(self):  # Corrected method definition and indentation
+#         return self.__name
 
-    def set_name(self, name):  # This should set a new name, not return the old name
-        self.__name = name
+#     def set_name(self, name):  # This should set a new name, not return the old name
+#         self.__name = name
 
-    def get_age(self):  # Corrected method definition and indentation
-        return self.__age
+#     def get_age(self):  # Corrected method definition and indentation
+#         return self.__age
 
-# Creating an instance of Person
-p = Person("John", 30)
+# # Creating an instance of Person
+# p = Person("John", 30)
 
-p. __name="ma"
+# p. __name="ma"
 
-Accessing the private attribute using name mangling
-print(p._Person__name)  # Corrected typo in the print statement
+# Accessing the private attribute using name mangling
+# print(p._Person__name)  # Corrected typo in the print statement
+
+class A:
+    def
+
+p(A)=5
