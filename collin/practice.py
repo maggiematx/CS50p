@@ -1,17 +1,21 @@
 class Person:
-    def__init__ (self, name, age):
-        self.__name=name
-        self.__age=age
-    
-def get_name(self):
+    def __init__(self, name, age):  # Fixed typo in method name
+        self.__name = name
+        self.__age = age
+
+    def get_name(self):  # Corrected method definition and indentation
         return self.__name
 
-def set_name(self):
-        return self.__name
+    def set_name(self, name):  # This should set a new name, not return the old name
+        self.__name = name
 
-def get_age(self):
+    def get_age(self):  # Corrected method definition and indentation
         return self.__age
 
-p=Person("John", 30)
+# Creating an instance of Person
+p = Person("John", 30)
 
-priont(p._Person__name)
+p. __name="ma"
+
+# Accessing the private attribute using name mangling
+print(p._Person__name)  # Corrected typo in the print statement
