@@ -44,8 +44,9 @@ class SavingAccount:
                        self.__amount = amount # method to display the amount
        def getAmount(self):
                    print("Current amount -> ", self.__amount)
+                   
  user = SavingAccount('10,000’)
  user.getAmount()
- 
+
  print(user.__amount)
  print(user._SavingAccount__amount)
