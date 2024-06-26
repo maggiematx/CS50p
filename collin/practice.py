@@ -39,19 +39,9 @@
 # print(o2.__dict__)
 # print(o3.__dict__)
 
-class SavingAccount:
-    def __init__(self, amount):  # making the 'amount' variable private
-        self.__amount = amount  # private variable
-
-    # method to display the amount
-    def getAmount(self):
-        print("Current amount ->", self.__amount)
-
-user = SavingAccount('10,000')
-user.getAmount()
-
-# Accessing the private variable directly will raise an AttributeError
-# print(user.__amount)  # Uncommenting this will raise an AttributeError
-
-# Accessing the mangled name directly
-print(user._SavingAccount__amount)
+class A:
+           def __init__(self, a=1):
+                         self.__var = a
+ 
+p = A(5)
+print(p._A__var)
