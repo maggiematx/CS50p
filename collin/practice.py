@@ -25,16 +25,34 @@
 # # print(o3.student_score)
 # # print(o4.student_score)
 
-class Student:
-    def __init__(self,first):
-        self.__first = first
-    def set_second(self, second):
-        self.__second = second
-o1= Student(1)
-o2 = Student (2)
-o3 = Student (4)
+# class Student:
+#     def __init__(self,first):
+#         self.__first = first
+#     def set_second(self, second):
+#         self.__second = second
+# o1= Student(1)
+# o2 = Student (2)
+# o3 = Student (4)
+# o2.set_second(3)
+# o3.third = 5
+# print(o1.__dict__)
+# print(o2.__dict__)
+# print(o3.__dict__)
+
+class ExampleClass:
+        var=10
+        def __init__(self,first):
+                 self.first = first
+        def set_second(self, second):
+                 self.second = second
+o1= ExampleClass(1)
+o2 = ExampleClass(2)
+o3 = ExampleClass(4)
 o2.set_second(3)
 o3.third = 5
 print(o1.__dict__)
+print(o1.var)
 print(o2.__dict__)
 print(o3.__dict__)
+
+
