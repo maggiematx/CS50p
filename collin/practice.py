@@ -1,29 +1,26 @@
-# class Person:
-#     def __init__(self, name, age):  # Fixed typo in method name
-#         self.__name = name
-#         self.__age = age
+class Student:
+    student_score = 95  # Class variable
 
-#     def get_name(self):  # Corrected method definition and indentation
-#         return self.__name
+    def __init__(self, name):
+        Student.student_score += 10  # Increment the class variable
+        self.name = name  # Instance variable
 
-#     def set_name(self, name):  # This should set a new name, not return the old name
-#         self.__name = name
+    def show(self):
+        print("Hi, my name is " + self.name)
 
-#     def get_age(self):  # Corrected method definition and indentation
-#         return self.__age
+class Ricestudent(Student):
+    pass
 
-# # Creating an instance of Person
-# p = Person("John", 30)
+o1 = Ricestudent("Peter")  # Create an instance of Ricestudent
+o2=Student("Emma")
+o3=Ricestudent("John")
+o4=Student("Jack")
 
-# p. __name="ma"
+o2.show()
+print(o2.student_score)
 
-# Accessing the private attribute using name mangling
-# print(p._Person__name)  # Corrected typo in the print statement
+#o1.show()  # Call the show method
+# print(o1.student_score)  # Access the class variable student_score
 
-class A:
-    def __init__(self, a=1):
-        self.__a=a
-
-p(A)=5
-
-print(a)
+# print(o3.student_score)
+# print(o4.student_score)
