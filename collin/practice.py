@@ -12,15 +12,15 @@ class Ricestudent(Student):
     pass
 
 o1 = Ricestudent("Peter")  # Create an instance of Ricestudent
-o2=Student("Emma")
-o3=Ricestudent("John")
-o4=Student("Jack")
+#o2=Student("Emma")
+#o3=Ricestudent("John")
+#o4=Student("Jack")
 
-o2.show()
-print(o2.student_score)
+#o2.show()
+#print(o2.student_score)
 
-#o1.show()  # Call the show method
-# print(o1.student_score)  # Access the class variable student_score
+# o1.show()  # Call the show method
+print(o1.student_score)  # Access the class variable student_score
 
 # print(o3.student_score)
 # print(o4.student_score)
