@@ -39,20 +39,13 @@
 # print(o2.__dict__)
 # print(o3.__dict__)
 
-class ExampleClass:
-        var=10
-        def __init__(self,first):
-                 self.first = first
-        def set_second(self, second):
-                 self.second = second
-o1= ExampleClass(1)
-o2 = ExampleClass(2)
-o3 = ExampleClass(4)
-o2.set_second(3)
-o3.third = 5
-print(o1.__dict__)
-print(o1.var)
-print(o2.__dict__)
-print(o3.__dict__)
-
-
+class SavingAccount:
+       def __init__(self, amount): # making the 'amount' variable private
+                       self.__amount = amount # method to display the amount
+       def getAmount(self):
+                   print("Current amount -> ", self.__amount)
+ user = SavingAccount('10,000’)
+ user.getAmount()
+ 
+ print(user.__amount)
+ print(user._SavingAccount__amount)
