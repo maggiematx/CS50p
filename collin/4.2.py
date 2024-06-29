@@ -23,7 +23,8 @@ print(obj.__dict__)
 # Print the dictionary of class attributes, methods
 print(Classy.__dict__)
 
-""" The output of the program is:
+"""
+The output of the program is:
 {'var': 2}
 {
     '__module__': '__main__',
@@ -37,4 +38,5 @@ print(Classy.__dict__)
 }
 
 obj.__dict__ shows only the instance-specific attributes ({'var': 2}).
-Classy.__dict__ shows all class-level attributes, methods, and other metadata, including class attributes (varia), methods (method, __hidden), and internal attributes. """
+Classy.__dict__ shows all class-level attributes, methods, and other metadata, including class attributes (varia), methods (method, __hidden), and internal attributes.
+"""
