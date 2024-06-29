@@ -39,9 +39,3 @@
 # print(o2.__dict__)
 # print(o3.__dict__)
 
-class A:
-    def __init__(self, a=1):
-        self.__var = a  # private variable
-
-p = A(5)
-print(p.__var)
