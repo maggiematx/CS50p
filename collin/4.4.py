@@ -1,18 +1,18 @@
 class A:
-
+     # class attribute
      var = 1
 
      def __init__(self):
-
+         # Instance attribute
          self.x = 1
 
+# Child class
 class B(A):
-
       def __init__(self):
-
+            # call the parent class's __init__method
             super().__init__()
 
-# b is another reference of B()
+# b is another instance of calss B
 b = B()
 
 
