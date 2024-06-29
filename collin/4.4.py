@@ -12,7 +12,9 @@ class B(A):
 
             super().__init__()
 
+# b is another reference of B()
 b = B()
+
 
 print(hasattr(A,"__init__"))
 
