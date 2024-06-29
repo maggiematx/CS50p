@@ -18,6 +18,8 @@ print(isinstance(c, A))
 The output of the program is:
 True
 
-The instance c of class C is part of the inheritance hierarchy that includes class A.
+A is the parent class.
+B is a subclass of A.
+C is a subclass of B, which means C is also indirectly a subclass of A The instance c of class C is part of the inheritance hierarchy that includes class A.
 """
 
