@@ -29,3 +29,4 @@ print(hasattr(A,"var"))
 print(hasattr(b,"var"))
 
 print(hasattr(B,"super"))
+
