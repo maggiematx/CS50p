@@ -10,7 +10,7 @@ class C(B):
     # Child class of A (does nothing in this example)
     pass
 # Create an instance of C
- c = C()
+c = C()
 
 print(isinstance(c, A))
 
