@@ -1,41 +1,29 @@
-# class Student:
-#     student_score = 95  # Class variable
+class Level1:
+    variable_1 = 100
+    def __init__(self):
+        self.var_1 = 101
+    def fun_1(self):
+        return 102
+class Level2(Level1):
+    variable_2 = 200
+    def __init__(self):
+        super().__init__()
+        self.var_2 = 201
+    def fun_2(self):
+        return 202
+class Level3(Level2):
+    variable_3 = 300
+    def __init__(self):
+        super().__init__()
+        self.var_3 = 301
+    def fun_3(self):
+        return 302
 
-#     def __init__(self, name):
-#         Student.student_score += 10  # Increment the class variable
-#         self.name = name  # Instance variable
+obj = Level3()
+print(obj.variable_1, obj.var_1, obj.fun_1())
+print(obj.variable_2, obj.var_2, obj.fun_2())
+print(obj.variable_3, obj.var_3, obj.fun_3())
 
-#     def show(self):
-#         print("Hi, my name is " + self.name)
-
-# class Ricestudent(Student):
-#     pass
-
-# o1 = Ricestudent("Peter")  # Create an instance of Ricestudent
-# #o2=Student("Emma")
-# #o3=Ricestudent("John")
-# #o4=Student("Jack")
-
-# #o2.show()
-# #print(o2.student_score)
-
-# # o1.show()  # Call the show method
-# print(o1.student_score)  # Access the class variable student_score
-
-# # print(o3.student_score)
-# # print(o4.student_score)
-
-# class Student:
-#     def __init__(self,first):
-#         self.__first = first
-#     def set_second(self, second):
-#         self.__second = second
-# o1= Student(1)
-# o2 = Student (2)
-# o3 = Student (4)
-# o2.set_second(3)
-# o3.third = 5
-# print(o1.__dict__)
-# print(o2.__dict__)
-# print(o3.__dict__)
-
+# 100, 101, 102
+# 200, 201, 202
+# 300, 301, 302
