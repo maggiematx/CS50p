@@ -12,4 +12,4 @@ class Sub(Left, Right):
     pass
 obj = Sub()
 print(obj.var, obj.var_left, obj.var_right, obj.fun())
-# 
+# L,LL,RR, Right
