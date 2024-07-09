@@ -1,7 +1,7 @@
 def reciprocal(n):
     try:
         p=1/n
-    except ZeroDivisonError:
+    except ZeroDivisionError:
         print("Divison failed")
         p=None
     else:
