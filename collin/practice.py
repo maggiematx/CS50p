@@ -1,7 +1,13 @@
-try:
-  print(1/0)
-
-except ZeroDivisionError:
-   print("zero")
-except ArithmeticError:
-          print("arith")
+def reciprocal(n):
+    try:
+        p=1/n
+    except ZeroDivisonError:
+        print("Divison failed")
+        p=None
+    else:
+        print("Everything went fine")
+        return p
+    finally:
+        print("It's time to say goodbye")
+        # return p
+print(reciprocal(5))
