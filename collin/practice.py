@@ -9,5 +9,5 @@ def reciprocal(n):
         return p
     finally:
         print("It's time to say goodbye")
-        # return p
-print(reciprocal(5))
+        return p
+print(reciprocal(0))
