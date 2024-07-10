@@ -11,6 +11,6 @@ try:
 except ValueError:
     print("wrong input")
 
-# else:
-#     print("right")
-#     return p
+else:
+    print("right")
+    return p
