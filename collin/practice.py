@@ -6,11 +6,11 @@ try:
     p=a/b
     if a<0 or b<0:
         raise ValueError
-    return p
+    print(a/b)
 
 except ValueError:
     print("wrong input")
 
-# else:
-#     print("right")
-#     return p
+else:
+    print("right")
+    return p
