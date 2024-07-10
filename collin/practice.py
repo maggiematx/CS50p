@@ -1,14 +1,16 @@
-def reciprocal(n):
-    try:
-        p = 1 / n
-    except ZeroDivisionError:
-        print("Division failed")
-  
-    else:
-        print("Everything went fine")
-        return p
-    finally:
-        print("It's time to say goodbye")
-        return p
+a=int(input("what's a? "))
+b=int(input("what's b? "))
 
-print(reciprocal(2))
+
+try:
+    p=a/b
+    if a<0 or b<0:
+        raise ValueError
+    return p
+
+except ValueError:
+    print("wrong input")
+
+# else:
+#     print("right")
+#     return p
