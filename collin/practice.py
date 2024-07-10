@@ -6,7 +6,7 @@ try:
     p=a/b
     if a<0 or b<0:
         raise ValueError
-    print(a/b)
+    print(p)
 
 except ValueError:
     print("wrong input")
