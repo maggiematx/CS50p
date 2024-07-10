@@ -1,8 +1,14 @@
-try:
-    m = int("Hello!")
-except:
-    print("You must enter an integer value.")
-try:
-    m = int("Hello!")
-except Exception as e:
-    print(e)
+def reciprocal(n):
+    try:
+        p = 1 / n
+    except ZeroDivisionError:
+        print("Division failed")
+  
+    else:
+        print("Everything went fine")
+        return p
+    finally:
+        print("It's time to say goodbye")
+        return p
+
+print(reciprocal(2))
