@@ -1,0 +1,1 @@
+Developed a Python program, camel.py, that prompts the user for a variable name in camel case and converts it to snake case. The program assumes that the input provided by the user is correctly formatted in camel case and outputs the corresponding snake case variable name.

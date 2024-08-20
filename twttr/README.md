@@ -1,0 +1,1 @@
+Developed a Python program, twttr.py, that prompts the user for a string of text and outputs the same text with all vowels (A, E, I, O, U) omitted, regardless of whether they are in uppercase or lowercase. The program effectively shortens the text by removing these vowels.

@@ -1,1 +1,1 @@
-Implemented a Python program that prompts the user for input and outputs the input in lowercase, preserving punctuation and whitespace. 
+Developed a Python program, `indoor.py`, that prompts the user for input and outputs the text in lowercase, while preserving punctuation and whitespace.

@@ -1,0 +1,1 @@
+Developed a Python program, `bank.py`, which prompts the user for a greeting. If the greeting starts with "hello" (case-insensitively and ignoring leading whitespace), the program outputs `$0`. If the greeting starts with an "h" but not "hello," it outputs `$20`. For any other greeting, it outputs `$100`.

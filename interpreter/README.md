@@ -1,0 +1,1 @@
+Developed a Python program, interpreter.py, which prompts the user for an arithmetic expression formatted as `x y z`, where `x` and `z` are integers and `y` is an operator (`+`, `-`, `*`, or `/`). The program calculates the result and outputs it as a floating-point value formatted to one decimal place. 

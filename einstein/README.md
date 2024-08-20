@@ -1,0 +1,1 @@
+Developed a Python program, `einstein.py`, which prompts the user for mass as an integer (in kilograms) and outputs the equivalent number of Joules as an integer. 

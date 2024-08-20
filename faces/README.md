@@ -1,0 +1,1 @@
+Developed a Python program, `faces.py`, which includes a `convert` function that replaces `:)` with 🙂 (a slightly smiling face) and `:(` with 🙁 (a slightly frowning face) in a given string, while keeping all other text unchanged. Additionally, implemented a `main` function that prompts the user for input, processes it using `convert`, and prints the result.

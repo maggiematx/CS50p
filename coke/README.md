@@ -1,0 +1,1 @@
+Developed a Python program, coke.py, that prompts the user to insert a coin, one at a time, and informs them of the remaining amount due after each input. Once the user has inserted at least 50 cents, the program calculates and outputs the amount of change owed. 

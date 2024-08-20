@@ -1,0 +1,1 @@
+Developed a Python program, `deep.py`, which prompts the user for the answer to the Great Question of Life, the Universe, and Everything. The program outputs "Yes" if the user inputs `42`, `forty-two`, or `forty two` (case-insensitively). For any other input, it outputs "No."

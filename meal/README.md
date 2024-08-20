@@ -1,0 +1,3 @@
+Developed a Python program, `meal.py`, that prompts the user for a time and determines whether it’s breakfast time, lunch time, or dinner time, outputting the appropriate meal. If it’s not meal time, the program doesn’t output anything. The user’s input is expected in 24-hour format as `#:#` or `##:##`. Meal times are inclusive within their ranges.
+
+The program includes a `convert` function that, when called by `main`, converts a time string in 24-hour format to a float representing the number of hours. For example, if the user inputs `7:30`, `convert` returns `7.5`.
