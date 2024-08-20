@@ -1,0 +1,1 @@
+Implemented a Python program that prompts the user for input and outputs the input in lowercase, preserving punctuation and whitespace. 
