@@ -1,0 +1,3 @@
+Developed a Python program, `plates.py`, that prompts the user for a vanity plate and checks if it meets all specified requirements. The program outputs "Valid" if the plate is valid and "Invalid" if it is not. The main validation logic is handled by an is_valid function, which returns True if the input string `s` meets all requirements and False if it does not. Additional helper functions can be implemented to check individual requirements, which are then called by is_valid. 
+
+Then in a file called test_plates.py, implemented more functions that collectivelyu test plates.py thoroughly.

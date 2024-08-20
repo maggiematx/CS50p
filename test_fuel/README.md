@@ -1,0 +1,3 @@
+Developed a Python program, `fuel.py`, that prompts the user for a fraction formatted as X/Y, where both X and Y are integers. The program then outputs the amount of fuel in the tank as a percentage, rounded to the nearest integer. If 1% or less remains, it outputs "E" to indicate the tank is nearly empty. If 99% or more remains, it outputs "F" to indicate the tank is nearly full.
+
+Then, in a file called test_fuel.py, implement more functions that collectively test the implementations of convert and gauge thoroughly. 
