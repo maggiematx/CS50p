@@ -1,1 +1,1 @@
-The folder contains my solutions for the CS50p problem sets. These problem sets cover basic programming concepts like functions, variables, conditionals, loops, exceptions, and more advanced topics like libraries, unit tests, file I/O, regular expressions, and object-oriented programming.
+This is my solutions for the problem sets. 
